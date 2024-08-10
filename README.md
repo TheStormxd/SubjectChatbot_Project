@@ -2,7 +2,7 @@
 This is the dedicated project by five people on the subject Tutor Chatbot
 
 # How to run this project like a pro
-#(cd to the BE_chatbot file)
+(cd to the BE_chatbot file)
 1. Create a virtual len environment (Always open this backend terminal in git bash):
  + install virtual len: pip install virtualenv
  + create the environment: virtualenv venv
@@ -10,11 +10,11 @@ This is the dedicated project by five people on the subject Tutor Chatbot
 2. Install the requirement file while activating the environment: pip install -r requirements.txt
 3. Run the Chatbot logic: python app.py 
 
-#(cd to the BE_Nodejs -> be-v1)
+(cd to the BE_Nodejs -> be-v1)
 1. Install the node module: npm install
 2. Start the database: npm start
 
-#(cd to the FE -> fe-v1)
+(cd to the FE -> fe-v1)
 1. Install the node module: npm install
 2. Start the react front end: npm start
 
