@@ -27,6 +27,7 @@ module.exports.getChatById =async (id)=>{
 module.exports.addMessage =async (chatUser,id)=>{
     try{
         const response = await axios.post('http://localhost:5000/api/chat', { message: chatUser });
+        
         let result = await Chat.updateOne({_id:id},{
             $push:{
                 chatUser:chatUser,

@@ -97,6 +97,7 @@ function ChatDetail() {
             if(id){
                 
                 const chatText = await addMessage(id,inputChat)
+                console.log(chatText);
                 
                 setArrayMessage((prevArrayMessage) => [
                     ...prevArrayMessage,
