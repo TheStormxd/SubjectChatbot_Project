@@ -1,16 +1,18 @@
 const mongoose = require("mongoose")
 const chatSchema = new mongoose.Schema(
     { 
-        chatUser:{
-            type:Array,
-            default:[]
+        userId:String,
+        chatContent:[
+            {
+                chatUser:String,
+                chatMachine:String
+            }
+        ],
+        deleted: {
+            type:Boolean,
+            default:false
         },
-        chatMachine:{
-            type:Array,
-            default:[]
-        },
-        deleted: Boolean
-
+        deletedAt:Date,    
     }
  );
 
