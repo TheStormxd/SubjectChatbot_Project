@@ -47,7 +47,10 @@ function AuthLayout({children}) {
     return (
         <>
             <header className="flex justify-center items-center py-3 h-20 shadow-md bg-white">
-                <h1 className="text-[30px] font-semibold text-primary">Chat App</h1>
+                {/* <h1 className="text-[30px] font-semibold text-primary">Chat App</h1>
+                 */}
+                <h1 className="text-[30px] font-semibold text-primary">Register Form</h1>
+
             </header>
         
             {children}
