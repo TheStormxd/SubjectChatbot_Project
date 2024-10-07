@@ -24,7 +24,7 @@ function Menu({ collapsed, handleCollapsed }) {
                         )}
 
                         <div className="h-[470px] overflow-y-auto">
-                            {[...Array(5)].map((_, idx) => (
+                            {[...Array(1)].map((_, idx) => (
                                 <div key={idx} className="flex p-2 items-center gap-2 transition duration-300 rounded-lg cursor-pointer hover:bg-slate-200">
                                     <MessageOutlined className="text-lg" /> {collapsed ? <p></p> : <p>Chat bal lfas ...</p>}
                                 </div>

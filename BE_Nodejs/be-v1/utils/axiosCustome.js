@@ -2,7 +2,7 @@ const axios = require("axios")
 
 // Set config defaults when creating the instance
 const instance = axios.create({
-    baseURL: 'http://localhost:3005'
+    baseURL: 'http://localhost:5000'
   });
   
   // Alter defaults after instance has been created

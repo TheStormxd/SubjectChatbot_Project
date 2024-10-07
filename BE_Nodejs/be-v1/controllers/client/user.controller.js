@@ -54,6 +54,7 @@ module.exports.login = async (req, res) => {
 
                 // const user_token = jwt.sign()
                 const payload = {
+                    _id:existsUser._id,
                     fullName:existsUser.fullName,
                     email:existsUser.email,
                     avatar:existsUser.avatar

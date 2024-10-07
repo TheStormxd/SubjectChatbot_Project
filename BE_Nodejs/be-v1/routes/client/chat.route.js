@@ -1,13 +1,14 @@
 const express = require('express')
 const router = express.Router()
-// const controllers = require("../../controllers/client/chat.controller")
+const controllers = require("../../controllers/client/chat.controller")
+const middlewares = require("../../middlewares/checkAuthAdmin")
 
 
 // router.get('/',controllers.index )
-// router.post('/create',controllers.post )
-// router.get('/:id',controllers.getById )
+router.post('/create',middlewares.checkAuthByToken,controllers.create )
+router.get('/:id',controllers.getById )
 // router.post('/update',controllers.update )
-// router.patch("/delete",controllers.delete)
+router.patch("/sendMess",middlewares.checkAuthByToken,controllers.sendMess)
 
 
 

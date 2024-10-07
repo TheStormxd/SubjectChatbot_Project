@@ -2,12 +2,15 @@ const mongoose = require("mongoose")
 const chatSchema = new mongoose.Schema(
     { 
         userId:String,
-        chatContent:[
-            {
+        chatContent: {
+            type: [
+              {
                 chatUser:String,
                 chatMachine:String
-            }
-        ],
+              }
+            ],
+            default: [] 
+          },
         deleted: {
             type:Boolean,
             default:false
@@ -19,3 +22,5 @@ const chatSchema = new mongoose.Schema(
 const Chat = mongoose.model('Chat', chatSchema,"chats");
 
 module.exports = Chat
+
+// chat [ ]

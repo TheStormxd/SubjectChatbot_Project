@@ -1,4 +1,5 @@
-// const Chat = require("../../models/chat.model");
+const Chat = require("../../models/chat.model");
+const { getResponse } = require("../../utils/api");
 // const { createChat, getChatById, addMessage, deleteMessage, getAllChat } = require("../../services/chatServices")
 // //[GET] api/chat 
 // module.exports.index = async (req, res) => {
@@ -7,32 +8,74 @@
 //     return res.status(200).json({result})
 // }
 
-// //[POST] api/chat/create 
-// module.exports.post = async(req, res) => {
-    
-//     // console.log(chatUser);
 
-//     const data = await createChat()
+//[POST] api/chat/create 
+module.exports.create = async(req, res) => {
+    try {
+        // const {message} = req.body
+        // const res =  await getResponse(req.body)
+        const chatData = new Chat({
+            userId: req.user._id,
+            chatContent:[{
+                chatUser:req.body.message,
+                chatMachine:"Call API in python to get answer"
+            }]
+        })
+        await chatData.save()
+        res.json({
+            code:200,
+            data:chatData
+        })
+    } catch (error) {
+        res.json({
+            code:400,
+            message:"Error in BE!"
+        })
+    }
     
 
-//     // res.send(req.body)
-//     return res.status(200).json({data});
-// }
+   
+}
 // //[GET] api/chat/:id 
-// module.exports.getById = async (req, res) => {
-//     // console.log(req.params.id);
-//     // res.send("!23")
-//     const result = await getChatById(req.params.id)
-//     return res.status(200).json({result})
-// }
+module.exports.getById = async (req, res) => {
+    try {
+        const find = {
+            deleted:false,
+            _id:req.params.id
+        }
 
-// //[POST] api/chat/update
-// module.exports.update = async (req, res) => {
-//     const {chatUser,_id} = req.body
+        const chat = await Chat.findOne(find);
+        res.json({
+            code:200,
+            data:chat
+        })
+    } catch (error) {
+        res.json({
+            code:400,
+            message:"Error in BE!"
+        })
+    }
+    // console.log(req.params.id);
+    // res.send("!23")
+    // const result = await getChatById(req.params.id)
+    // return res.status(200).json({result})
+}
+
+// //[PATCH] api/chat/sendMess
+module.exports.sendMess = async (req, res) => {
+    const {message,_id} = req.body
+
+    const newChatMessage = {
+        chatUser:message,
+        chatMachine:"Call API in python to get answer"
+    }
+
+    await Chat.updateOne({ _id: _id},{
+         $push: { chatContent: newChatMessage } , 
+    })
     
-//     const result = await addMessage(chatUser,_id)
-//     return res.status(200).json({result})
-// }
+    return res.json({code:200})
+}
 
 // //[PATCH] api/chat/delete
 // module.exports.delete = async (req, res) => {

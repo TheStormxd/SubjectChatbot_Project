@@ -74,7 +74,7 @@ function Login() {
                         />
                     </div>
                     <h3>Welcome to Chat app!</h3>
-                    <button className='w-full font-semibold text-white text-[16px] bg-primary px-4 py-1 transition-all duration-300 rounded-md hover:bg-secondary ' htmltype="submit">Login</button>
+                    {/* <button className='w-full font-semibold text-white text-[16px] bg-primary px-4 py-1 transition-all duration-300 rounded-md hover:bg-secondary ' htmltype="submit">Login</button> */}
 
                     <Form
                     layout='vertical'
@@ -107,9 +107,9 @@ function Login() {
 
                         
 
-                        {/* <Form.Item>
+                        <Form.Item>
                             <button className='w-full font-semibold text-white text-[16px] bg-primary px-4 py-1 transition-all duration-300 rounded-md hover:bg-secondary ' htmltype="submit">Login</button>
-                        </Form.Item> */}
+                        </Form.Item>
 
                         <p className='my-3 text-center'>New user ? <Link to={"/users/register"} className="transition duration-300 hover:text-primary font-medium ">Register</Link></p>
                         

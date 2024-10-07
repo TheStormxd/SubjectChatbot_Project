@@ -28,21 +28,21 @@ function Register() {
                 const res = await userRegisterApi(formData);
         if(res.code==200){
             // toast.success(res.message)
-            toast.success(res.message, { duration: 10000 });
+            toast.success(res.message);
 
-            // navigate("/users/login")
+            navigate("/users/login")
         }
         else{
-            toast.error(res.message, { duration: 10000 });
+            toast.error(res.message);
         }
-        // form.resetFields()
+        form.resetFields()
     }
     return (
         <>
     
             <div className='mt-5'>
                 <div className='bg-white w-full max-w-sm rounded overflow-hidden p-4 mx-auto'>
-                    {/* <h3>Welcome to Chat app!</h3> */}
+                    <h3>Welcome to Chat app!</h3>
                     <Form
                     layout='vertical'
                     className='mt-5'

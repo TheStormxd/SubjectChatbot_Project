@@ -49,10 +49,61 @@ const userCheckTokenApi = async(token)=>{
 }
 
 
+const createChatApi = async(data)=>{
+    try {
+        const URL_LOGIN ='/api/chat/create'
+        const response = await axios.post(URL_LOGIN,data,{
+            headers:{
+                "Content-Type":"application/json"
+            }
+        })
+        return response
+    } catch (error) {
+        return {
+            code:400,
+            message:"Error in axios!"
+        }
+    }
+}
+
+const getChatApi = async (id)=>{
+    try {
+        const URL_LOGIN =`/api/chat/${id}`
+        const response = await axios.get(URL_LOGIN)
+        return response
+    } catch (error) {
+        return {
+            code:400,
+            message:"Error in axios!"
+        }
+    }
+}
+
+const sendMessApi = async (data)=>{
+    try {
+        
+        const URL_LOGIN =`/api/chat/sendMess`
+        const response = await axios.patch(URL_LOGIN,data,{
+            headers:{
+                "Content-Type":"application/json"
+            }
+        })
+        return response
+    } catch (error) {
+        return {
+            code:400,
+            message:"Error in axios!"
+        }
+    }
+}
+
+
 
 export {
     userRegisterApi,
     userLoginApi,
-    userCheckTokenApi
-    
+    userCheckTokenApi,
+    createChatApi,
+    getChatApi,
+    sendMessApi
 }
