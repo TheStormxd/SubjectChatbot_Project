@@ -9,7 +9,7 @@ module.exports.getResponse = async(data)=>{
                 'Content-Type': 'application/json'
             }
         })
-        console.log(response);
+        // console.log(response);
         return response
     } catch (error) {
         return {

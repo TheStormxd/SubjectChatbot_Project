@@ -1,27 +1,42 @@
 const Chat = require("../../models/chat.model");
 const { getResponse } = require("../../utils/api");
 // const { createChat, getChatById, addMessage, deleteMessage, getAllChat } = require("../../services/chatServices")
-// //[GET] api/chat 
-// module.exports.index = async (req, res) => {
-//     const result = await getAllChat();
-    
-//     return res.status(200).json({result})
-// }
+//[GET] api/ 
+module.exports.index = async (req, res) => {
+    try {
+        const find = {
+            deleted:false,
+            userId: req.user._id
+        }
+
+        const chats = await Chat.find(find);
+        res.json({
+            code:200,
+            data:chats
+        })
+    } catch (error) {
+        res.json({
+            code:400,
+            message:"Error in BE!"
+        })
+    }
+}
 
 
 //[POST] api/chat/create 
 module.exports.create = async(req, res) => {
     try {
         // const {message} = req.body
-        const res =  await getResponse(req.body)
+        const response =  await getResponse(req.body)
         const chatData = new Chat({
             userId: req.user._id,
             chatContent:[{
                 chatUser:req.body.message,
-                chatMachine:res.response
+                chatMachine:response.response
             }]
         })
         await chatData.save()
+        
         res.json({
             code:200,
             data:chatData

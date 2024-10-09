@@ -1,6 +1,43 @@
-import { MenuOutlined, PlusOutlined, MessageOutlined, QuestionCircleOutlined, SettingOutlined, ClockCircleOutlined } from "@ant-design/icons";
+import { MenuOutlined, PlusOutlined, MessageOutlined, LogoutOutlined,QuestionCircleOutlined, SettingOutlined, ClockCircleOutlined } from "@ant-design/icons";
+import { useEffect, useState } from "react";
+import { toast } from "react-hot-toast";
+import { useDispatch } from "react-redux";
+import { useLocation, useNavigate } from "react-router-dom";
+import { getAllChatApi } from "../../../utils/client/api";
 
 function Menu({ collapsed, handleCollapsed }) {
+    const naviagate = useNavigate()
+    const location = useLocation()
+    const dispatch = useDispatch()
+
+    const [chats,setChats] = useState([])
+    
+
+    const fetch =async ()=>{
+        const res = await getAllChatApi();
+        if(res.code==200){
+            setChats(res.data)
+        }
+    }
+    useEffect(()=>{
+        fetch()
+    },[location])
+
+
+    const handleNewChat = ()=>{
+        naviagate("/");
+    }
+    const changeTab =(id)=>{
+        naviagate(`chat/${id}`);
+
+    }
+    const handleLogout = ()=>{
+        dispatch({type:"USER_LOGOUT"});
+        localStorage.removeItem("user_token");
+        naviagate("/users/login");
+        toast.success("Logout successfully!")
+
+    }
 
     return (
         <>
@@ -9,8 +46,8 @@ function Menu({ collapsed, handleCollapsed }) {
                 <div className="">
                     <MenuOutlined onClick={handleCollapsed} className="text-xl p-2 rounded-md mb-10 transition duration-300 hover:bg-slate-300 cursor-pointer mb-3" />
                     
-                    <div className="text-lg w-[80%] transition duration-300 hover:bg-slate-300 font-normal p-2 rounded-2xl bg-slate-200 cursor-pointer flex justify-center items-center gap-2">
-                        <PlusOutlined className=""/> {collapsed ? <p className=""></p> : <p className="">New chat</p>}
+                    <div onClick={handleNewChat} className="text-lg w-[80%] transition duration-300 hover:bg-slate-300 font-normal p-2 rounded-2xl bg-slate-200 cursor-pointer flex justify-center items-center gap-2">
+                        <PlusOutlined  className=""/> {collapsed ? <p className=""></p> : <p className="">New chat</p>}
                     </div>
 
                     <div className="flex flex-col" >
@@ -24,9 +61,9 @@ function Menu({ collapsed, handleCollapsed }) {
                         )}
 
                         <div className="h-[470px] overflow-y-auto">
-                            {[...Array(1)].map((_, idx) => (
-                                <div key={idx} className="flex p-2 items-center gap-2 transition duration-300 rounded-lg cursor-pointer hover:bg-slate-200">
-                                    <MessageOutlined className="text-lg" /> {collapsed ? <p></p> : <p>Chat bal lfas ...</p>}
+                            {chats.map((chat, idx) => (
+                                <div onClick={()=>{changeTab(chat._id)}} key={idx} className="flex p-2 items-center gap-2 transition duration-300 rounded-lg cursor-pointer hover:bg-slate-200">
+                                    <MessageOutlined className="text-lg" /> {collapsed ? <p></p> : <p>{chat?.chatContent?.[0]?.chatUser}</p>}
                                 </div>
                             ))}
                         </div>
@@ -34,11 +71,15 @@ function Menu({ collapsed, handleCollapsed }) {
                 </div>
                 
                 <div className="flex flex-col">
+                    
                     <div className="flex p-2 items-center gap-2 transition duration-300 rounded-lg cursor-pointer hover:bg-slate-200">
                         <QuestionCircleOutlined className="pr-1" /> {collapsed ? <p></p> : <p>Help</p>}
                     </div>
                     <div className="flex p-2 items-center gap-2 transition duration-300 rounded-lg cursor-pointer hover:bg-slate-200">
                         <SettingOutlined className="pr-1" /> {collapsed ? <p></p> : <p>Settings</p>}
+                    </div>
+                    <div onClick={handleLogout} className="flex p-2 items-center gap-2 transition duration-300 rounded-lg cursor-pointer hover:bg-slate-200">
+                        <LogoutOutlined className="pr-1" /> {collapsed ? <p></p> : <p>Đăng xuất</p>}
                     </div>
                 </div>
             </div>

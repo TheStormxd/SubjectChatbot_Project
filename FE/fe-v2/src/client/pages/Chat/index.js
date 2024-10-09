@@ -1,12 +1,12 @@
 import { Form, Image, Input, Skeleton } from 'antd';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { useSelector } from 'react-redux';
 import {CompassOutlined,BulbOutlined,MessageOutlined,CodeOutlined,SendOutlined,UserOutlined} from "@ant-design/icons"
 import { VscAccount } from "react-icons/vsc";
 import {useNavigate, useParams} from "react-router-dom"
 import { getChatApi, sendMessApi } from '../../../utils/client/api';
 function Home() {
-
+    
     const stateAuth = useSelector(state=>state.UserReducer)
     const [show,setShow] = useState(false);
     const [form] = Form.useForm();
@@ -39,6 +39,13 @@ function Home() {
     useEffect(()=>{
         getChat()
     },[id,reload])
+    const endOfChatRef = useRef(null);
+    useEffect(() => {
+        // Scroll to the bottom of the chat or the skeleton loader
+        if (endOfChatRef.current) {
+            endOfChatRef.current.scrollIntoView({ behavior: 'smooth' });
+        }
+    }, [data.chatContent, loading]); 
     // console.log();
 
 
@@ -79,7 +86,7 @@ function Home() {
 
                                                 <div className='flex items-start gap-[10px] '>
                                                     <VscAccount size={30}/>
-                                                    <p>{item.chatMachine}</p>
+                                                    <div dangerouslySetInnerHTML={{ __html: item.chatMachine }} />
                                                 </div>
 
                                                 
@@ -87,10 +94,15 @@ function Home() {
                                             
                                             </>
                                         ))}
+                                         <div ref={endOfChatRef} />
                                     </>
                                 )}
                                 {loading && (
+                                                    <>
                                                     <Skeleton className='my-[50px]' active/>
+                                         <div ref={endOfChatRef} />
+
+                                                    </>
                                                 )}
                                 
                                 

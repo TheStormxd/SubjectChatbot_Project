@@ -79,6 +79,20 @@ const getChatApi = async (id)=>{
     }
 }
 
+
+const getAllChatApi = async (id)=>{
+    try {
+        const URL_LOGIN =`/api/chat`
+        const response = await axios.get(URL_LOGIN)
+        return response
+    } catch (error) {
+        return {
+            code:400,
+            message:"Error in axios!"
+        }
+    }
+}
+
 const sendMessApi = async (data)=>{
     try {
         
@@ -105,5 +119,6 @@ export {
     userCheckTokenApi,
     createChatApi,
     getChatApi,
-    sendMessApi
+    sendMessApi,
+    getAllChatApi
 }

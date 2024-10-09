@@ -17,13 +17,10 @@ function Home() {
 
         setShow(false)
         const res = await createChatApi(e);
+        
         if(res.code==200){
-            setTimeout(()=>{
-            
-                navigate(`chat/${res.data._id}`)
-            },2000)
+            navigate(`chat/${res.data._id}`)
         }
-
         form.resetFields()
         
 
