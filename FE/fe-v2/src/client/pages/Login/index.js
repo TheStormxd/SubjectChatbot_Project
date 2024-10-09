@@ -15,11 +15,13 @@ function Login() {
     const [token,setToken] = useState(localStorage.getItem("user_token"))
 
     const handleLogin = async(e)=>{
+        // console.log(e);
         // const res = await dispatch(userLoginAction(e))
         const res = await userLoginApi(e)
-        
+        console.log(res);
         if(res.code==200){
             toast.success("Login successfully!")
+           
             // console.log(stateUser);
             // localStorage.setItem("user_token",stateUser.user_token)
             // console.log(res);

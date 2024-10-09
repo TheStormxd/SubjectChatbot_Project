@@ -13,12 +13,12 @@ const { getResponse } = require("../../utils/api");
 module.exports.create = async(req, res) => {
     try {
         // const {message} = req.body
-        // const res =  await getResponse(req.body)
+        const res =  await getResponse(req.body)
         const chatData = new Chat({
             userId: req.user._id,
             chatContent:[{
                 chatUser:req.body.message,
-                chatMachine:"Call API in python to get answer"
+                chatMachine:res.response
             }]
         })
         await chatData.save()
@@ -64,10 +64,11 @@ module.exports.getById = async (req, res) => {
 // //[PATCH] api/chat/sendMess
 module.exports.sendMess = async (req, res) => {
     const {message,_id} = req.body
+    const response =  await getResponse(req.body)
 
     const newChatMessage = {
         chatUser:message,
-        chatMachine:"Call API in python to get answer"
+        chatMachine:response.response
     }
 
     await Chat.updateOne({ _id: _id},{

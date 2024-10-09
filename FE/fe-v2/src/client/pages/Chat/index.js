@@ -30,12 +30,8 @@ function Home() {
         const res = await sendMessApi(e);
         console.log(res);
         if(res.code==200){
-
-            setTimeout(()=>{
-                setLoading(false);
-                setReload(!reload)
-            },2000)
-                     
+            setLoading(false);
+            setReload(!reload)         
         }
         
 

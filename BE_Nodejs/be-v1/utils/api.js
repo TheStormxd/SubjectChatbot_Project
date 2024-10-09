@@ -3,12 +3,13 @@ const axios =require( "./axiosCustome")
 module.exports.getResponse = async(data)=>{
     try {
         const URL_LOGIN ='/api/chat'
-        // console.log(params);
+        // console.log(URL_LOGIN);
         const response = await axios.post(URL_LOGIN,data,{
             headers:{
                 'Content-Type': 'application/json'
             }
         })
+        console.log(response);
         return response
     } catch (error) {
         return {
