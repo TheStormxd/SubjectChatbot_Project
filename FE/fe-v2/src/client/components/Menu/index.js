@@ -23,6 +23,20 @@ function Menu({ collapsed, handleCollapsed }) {
         fetch()
     },[location])
 
+    const shortText = (text) => {
+        if (text.length > 18) {
+            let short = text.substring(0, 15);
+         
+            const lastSpace = short.lastIndexOf(" ");
+            if (lastSpace > 0) {
+                short = short.substring(0, lastSpace);
+            }
+            return short + "...";
+        } else {
+            return text;
+        }
+    };
+
 
     const handleNewChat = ()=>{
         naviagate("/");
@@ -63,7 +77,7 @@ function Menu({ collapsed, handleCollapsed }) {
                         <div className="h-[470px] overflow-y-auto">
                             {chats.map((chat, idx) => (
                                 <div onClick={()=>{changeTab(chat._id)}} key={idx} className="flex p-2 items-center gap-2 transition duration-300 rounded-lg cursor-pointer hover:bg-slate-200">
-                                    <MessageOutlined className="text-lg" /> {collapsed ? <p></p> : <p>{chat?.chatContent?.[0]?.chatUser}</p>}
+                                    <MessageOutlined className="text-lg" /> {collapsed ? <p></p> : <p>{shortText(chat?.chatContent?.[0]?.chatUser)}</p>}
                                 </div>
                             ))}
                         </div>

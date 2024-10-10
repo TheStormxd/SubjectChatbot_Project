@@ -46,9 +46,6 @@ function Home() {
             endOfChatRef.current.scrollIntoView({ behavior: 'smooth' });
         }
     }, [data.chatContent, loading]); 
-    // console.log();
-
-
     return (
         <>
             {show && (
@@ -57,7 +54,8 @@ function Home() {
                         <div className='flex items-center justify-between  p-[20px] text-[#585858]'>
                             <p className='text-[22px]'>Niko-Bot</p>
                             <Image 
-                                src='https://smilemedia.vn/wp-content/uploads/2022/09/cach-chup-hinh-the-dep.jpeg' 
+                                src = {stateAuth.userInfo.avatar? stateAuth.userInfo.avatar: "https://png.pngtree.com/png-vector/20220527/ourlarge/pngtree-unknown-person-icon-avatar-question-png-image_4760937.png"}
+
                                 width={45} // Adjust the width and height here
                                 height={45} 
                                 // Disable image preview on click if not needed
@@ -87,11 +85,7 @@ function Home() {
                                                 <div className='flex items-start gap-[10px] '>
                                                     <VscAccount size={30}/>
                                                     <div dangerouslySetInnerHTML={{ __html: item.chatMachine }} />
-                                                </div>
-
-                                                
-
-                                            
+                                                </div>          
                                             </>
                                         ))}
                                          <div ref={endOfChatRef} />
@@ -101,13 +95,8 @@ function Home() {
                                                     <>
                                                     <Skeleton className='my-[50px]' active/>
                                          <div ref={endOfChatRef} />
-
                                                     </>
                                                 )}
-                                
-                                
-
-
                             </div>
 
                     {/* end chat  */}

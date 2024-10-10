@@ -11,17 +11,29 @@ function Home() {
     const [show,setShow] = useState(true);
     const [form] = Form.useForm();
     const navigate = useNavigate()
-
-    const handleSend = async(e)=>{
-
-
+    const handleChatText = async(text)=>{
+        const e ={
+            message:text
+        }
         setShow(false)
         const res = await createChatApi(e);
         
         if(res.code==200){
             navigate(`chat/${res.data._id}`)
         }
+        
+    }
+
+    const handleSend = async(e)=>{
+
         form.resetFields()
+        setShow(false)
+        const res = await createChatApi(e);
+        
+        if(res.code==200){
+            navigate(`chat/${res.data._id}`)
+        }
+        
         
 
     }
@@ -64,19 +76,19 @@ function Home() {
                                     padding:"20px"
                                 }}
                             >
-                                <div className='h-[200px] p-[15px] bg-slate-200 relative rounded-lg cursor-pointer hover:bg-slate-300 transition duration-300'>
+                                <div onClick={()=>{handleChatText("Cau hoi so 1")}} className='h-[200px] p-[15px] bg-slate-200 relative rounded-lg cursor-pointer hover:bg-slate-300 transition duration-300'>
                                     <p className='text-[15px] text-[#585858]'>Cau hoi so 1</p>
                                     <CompassOutlined className='w-[35px] text-[20px] p-[5px] absolute rounded-3xl bottom-[10px] right-[10px] '/>
                                 </div>
-                                <div className='h-[200px] p-[15px] bg-slate-200 relative rounded-lg cursor-pointer text-[20px] hover:bg-slate-300 transition duration-300'>
+                                <div onClick={()=>{handleChatText("Cau hoi so 1")}} className='h-[200px] p-[15px] bg-slate-200 relative rounded-lg cursor-pointer text-[20px] hover:bg-slate-300 transition duration-300'>
                                     <p className='text-[15px] text-[#585858]'>Cau hoi so 1</p>
                                     <BulbOutlined className='w-[35px] p-[5px] absolute rounded-3xl bottom-[10px] right-[10px] text-[20px]'/>
                                 </div>
-                                <div className='h-[200px] p-[15px] bg-slate-200 relative rounded-lg cursor-pointer hover:bg-slate-300 transition duration-300'>
+                                <div onClick={()=>{handleChatText("Cau hoi so 1")}} className='h-[200px] p-[15px] bg-slate-200 relative rounded-lg cursor-pointer hover:bg-slate-300 transition duration-300'>
                                     <p className='text-[15px] text-[#585858]'>Cau hoi so 1</p>
                                     <MessageOutlined className='w-[35px] p-[5px] absolute rounded-3xl bottom-[10px] right-[10px] text-[20px]'/>
                                 </div>
-                                <div className='h-[200px] p-[15px] bg-slate-200 relative rounded-lg cursor-pointer hover:bg-slate-300 transition duration-300'>
+                                <div onClick={()=>{handleChatText("Cau hoi so 1")}} className='h-[200px] p-[15px] bg-slate-200 relative rounded-lg cursor-pointer hover:bg-slate-300 transition duration-300'>
                                     <p className='text-[15px] text-[#585858]'>Cau hoi so 1</p>
                                     <CodeOutlined className='w-[35px] p-[5px] absolute rounded-3xl bottom-[10px] right-[10px] text-[20px]'/>
                                 </div>
