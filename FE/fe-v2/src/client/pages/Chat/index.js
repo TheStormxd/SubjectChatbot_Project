@@ -20,16 +20,18 @@ function Home() {
     const [reload,setReload] = useState(false); 
 
     const getChat = async()=>{
-        const res = await getChatApi(id);
-        if(res.code==200){
-            setData(res.data);
-        }
-        setShow(true)
+        setTimeout(async()=>{const res = await getChatApi(id);
+            if(res.code==200){
+                setData(res.data);
+            }
+            setShow(true)},getRandomNumber()*1000)
+
+        
     }
     const handleSend =async (e)=>{
         setLoading(true);
-        setTimeout(()=>{},getRandomNumber()*1000);
-        form.resetFields()
+        setTimeout(async()=>{
+            form.resetFields()
         e._id = id;
         const res = await sendMessApi(e);
         console.log(res);
@@ -37,6 +39,8 @@ function Home() {
             setLoading(false);
             setReload(!reload)         
         }
+        },getRandomNumber()*1000);
+        
         
 
     }

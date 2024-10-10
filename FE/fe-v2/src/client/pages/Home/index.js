@@ -20,16 +20,16 @@ function Home() {
             message:text
         }
         setShow(false)
-        setTimeout(()=>{
-            
-        },getRandomNumber()*1000)
-        const res = await createChatApi(e);
+        setTimeout(async()=>{
+            const res = await createChatApi(e);
         
-        if(res.code==200){
-            
-            navigate(`chat/${res.data._id}`)
-            
-        }
+            if(res.code==200){
+                
+                navigate(`chat/${res.data._id}`)
+                
+            }
+        },getRandomNumber()*1000)
+        
         
     }
 
@@ -37,15 +37,15 @@ function Home() {
 
         form.resetFields()
         setShow(false)
-        setTimeout(()=>{
-           
-        },getRandomNumber()*1000)
-        const res = await createChatApi(e);
+        setTimeout(async()=>{
+            const res = await createChatApi(e);
         
         if(res.code==200){
             
             navigate(`chat/${res.data._id}`)
         }
+        },getRandomNumber()*1000)
+        
         
         
 
