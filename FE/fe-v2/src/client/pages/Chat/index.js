@@ -22,24 +22,18 @@ function Home() {
     const getChat = async()=>{
         const res = await getChatApi(id);
         if(res.code==200){
-            setTimeout(()=>{
-                setData(res.data);
-            },getRandomNumber()*1000)
-            
+            setData(res.data);
         }
         setShow(true)
     }
     const handleSend =async (e)=>{
         setLoading(true);
+        setTimeout(()=>{},getRandomNumber()*1000);
         form.resetFields()
         e._id = id;
         const res = await sendMessApi(e);
         console.log(res);
         if(res.code==200){
-            setTimeout(()=>{
-                setData(res.data);
-            },getRandomNumber()*1000)
-            
             setLoading(false);
             setReload(!reload)         
         }
