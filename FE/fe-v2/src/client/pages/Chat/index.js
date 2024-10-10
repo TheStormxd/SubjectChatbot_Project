@@ -6,7 +6,10 @@ import { VscAccount } from "react-icons/vsc";
 import {useNavigate, useParams} from "react-router-dom"
 import { getChatApi, sendMessApi } from '../../../utils/client/api';
 function Home() {
-    
+    function getRandomNumber() {
+        return Math.floor(Math.random() * (5 - 3 + 1)) + 3;
+    }
+
     const stateAuth = useSelector(state=>state.UserReducer)
     const [show,setShow] = useState(false);
     const [form] = Form.useForm();
@@ -19,7 +22,10 @@ function Home() {
     const getChat = async()=>{
         const res = await getChatApi(id);
         if(res.code==200){
-            setData(res.data);
+            setTimeout(()=>{
+                setData(res.data);
+            },getRandomNumber()*1000)
+            
         }
         setShow(true)
     }
@@ -30,6 +36,10 @@ function Home() {
         const res = await sendMessApi(e);
         console.log(res);
         if(res.code==200){
+            setTimeout(()=>{
+                setData(res.data);
+            },getRandomNumber()*1000)
+            
             setLoading(false);
             setReload(!reload)         
         }

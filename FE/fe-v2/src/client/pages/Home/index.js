@@ -7,11 +7,15 @@ import {useNavigate} from "react-router-dom"
 import { createChatApi } from '../../../utils/client/api';
 function Home() {
 
+    function getRandomNumber() {
+    return Math.floor(Math.random() * (5 - 3 + 1)) + 3;
+    }
     const stateAuth = useSelector(state=>state.UserReducer)
     const [show,setShow] = useState(true);
     const [form] = Form.useForm();
     const navigate = useNavigate()
     const handleChatText = async(text)=>{
+        
         const e ={
             message:text
         }
@@ -19,7 +23,10 @@ function Home() {
         const res = await createChatApi(e);
         
         if(res.code==200){
-            navigate(`chat/${res.data._id}`)
+            setTimeout(()=>{
+                navigate(`chat/${res.data._id}`)
+            },getRandomNumber()*1000)
+            
         }
         
     }
@@ -31,7 +38,9 @@ function Home() {
         const res = await createChatApi(e);
         
         if(res.code==200){
-            navigate(`chat/${res.data._id}`)
+            setTimeout(()=>{
+                navigate(`chat/${res.data._id}`)
+            },getRandomNumber()*1000)
         }
         
         
