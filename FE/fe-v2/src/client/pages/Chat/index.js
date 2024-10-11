@@ -20,15 +20,16 @@ function Home() {
     const [reload,setReload] = useState(false); 
 
     const getChat = async()=>{
-        setTimeout(async()=>{const res = await getChatApi(id);
-            if(res.code==200){
-                setData(res.data);
-            }
-            setShow(true)},getRandomNumber()*1000)
+        const res = await getChatApi(id);
+        if(res.code==200){
+            setData(res.data);
+        }
+        setShow(true)
 
         
     }
     const handleSend =async (e)=>{
+        form.resetFields()
         setLoading(true);
         setTimeout(async()=>{
             form.resetFields()
