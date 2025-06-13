@@ -26404,3 +26404,1624 @@ You are Niko, an expert HCI course tutor. Using only the provided lecture note c
 *   **Simplicity:**  _The inter...
 2025-06-02 03:16:23,297 - INFO - root - Response prepared in 2.05 seconds: Learnability in Human-Computer Interaction (HCI) focuses on designing interactive systems that enabl
 2025-06-02 03:16:23,298 - INFO - werkzeug - 127.0.0.1 - - [02/Jun/2025 03:16:23] "POST /api/chat HTTP/1.1" 200 -
+2025-06-02 21:49:05,220 - INFO - sentence_transformers.SentenceTransformer - Use pytorch device_name: cpu
+2025-06-02 21:49:05,220 - INFO - sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L12-v2
+2025-06-02 21:49:09,105 - INFO - sentence_transformers.SentenceTransformer - Use pytorch device_name: cpu
+2025-06-02 21:49:09,105 - INFO - sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: all-MiniLM-L12-v2
+2025-06-02 21:49:11,763 - INFO - root - Embeddings and SentenceTransformer initialized
+2025-06-02 21:49:11,850 - INFO - root - Gemini 1.5 Flash model initialized
+2025-06-02 21:49:11,851 - INFO - root - Found lecture note PDF files: ['Topic 2 lecture HCI.pdf', 'Topic 3 lecture HCI.pdf', 'Topic 4 lecture HCI.pdf', 'Topic 5 lecture HCI.pdf', 'Topic 6 lecture HCI.pdf']
+2025-06-02 21:49:12,435 - INFO - root - Loaded 16 page-level documents from 5 PDFs
+2025-06-02 21:49:12,436 - INFO - root - Preprocessed doc from Topic 2 lecture HCI.pdf, Content: [Source: Topic 2 lecture HCI.pdf] Topic 2: Cultural factors in HCI design
+[SECTION: 1. Introduction]
+1. Introduction
+[SECTION: 1. Introduction]
+Designing technology that is inclusive and culturally 
+2025-06-02 21:49:12,436 - INFO - root - Preprocessed doc from Topic 2 lecture HCI.pdf, Content: [Source: Topic 2 lecture HCI.pdf] 2. Cultural Models as Design Guidelines
+Power Distance
+High power distance cultures tend to be more hierarchical, with a clear division of roles and 
+responsibilit
+2025-06-02 21:49:12,436 - INFO - root - Preprocessed doc from Topic 2 lecture HCI.pdf, Content: [Source: Topic 2 lecture HCI.pdf] 3. Research Challenges In The Real World
+When applying UX research methods for designing for cultural diversity in the real world, there are a 
+number of potential 
+2025-06-02 21:49:12,436 - INFO - root - Preprocessed doc from Topic 3 lecture HCI.pdf, Content: [Source: Topic 3 lecture HCI.pdf] Topic 3: Computer revolution and trends forecast to 2050
+[SECTION: 1. Definition of the Computer Revolution]
+1. Definition of the Computer Revolution
+[SECTION: 1. D
+2025-06-02 21:49:12,436 - INFO - root - Preprocessed doc from Topic 3 lecture HCI.pdf, Content: [Source: Topic 3 lecture HCI.pdf] 2. Importance of understanding technological evolution
+Revolution is a bigger force shaping our world now than it ever has been. Each era of the computing 
+revoluti
+2025-06-02 21:49:12,436 - INFO - root - Preprocessed doc from Topic 3 lecture HCI.pdf, Content: [Source: Topic 3 lecture HCI.pdf] 3. Current Technological Trends
+Augmented Reality
+AR overlays digital elements on the real world using sensors like GPS to track location and direction. 
+Populariz
+2025-06-02 21:49:12,436 - INFO - root - Preprocessed doc from Topic 4 lecture HCI.pdf, Content: [Source: Topic 4 lecture HCI.pdf] Topic 4: Design Principles
+[SECTION: 1. Learnability]
+1. Learnability
+[SECTION: 1. Learnability]
+Learnability principles are concerned with interactive system featu
+2025-06-02 21:49:12,436 - INFO - root - Preprocessed doc from Topic 4 lecture HCI.pdf, Content: [Source: Topic 4 lecture HCI.pdf] 2. Flexibility
+Flexibility in interactive design extends the way a user and the system exchange information. By 
+applying flexibility principles to an interactive s
+2025-06-02 21:49:12,436 - INFO - root - Preprocessed doc from Topic 4 lecture HCI.pdf, Content: [Source: Topic 4 lecture HCI.pdf] 3. Robustness
+The robustness of an interface design can be measured in terms of the following four principles. 
+These principles aim to support users to achieve the
+2025-06-02 21:49:12,437 - INFO - root - Preprocessed doc from Topic 5 lecture HCI.pdf, Content: [Source: Topic 5 lecture HCI.pdf]  Topic 5: Adaptive and Personalized interfaces
+[SECTION: 1. Adaptive interfaces]
+1. Adaptive interfaces
+[SECTION: 1. Adaptive interfaces]
+An Adaptive User Interface
+2025-06-02 21:49:12,437 - INFO - root - Preprocessed doc from Topic 5 lecture HCI.pdf, Content: [Source: Topic 5 lecture HCI.pdf] 2. Discussion about Personalized user interface
+At a time of Human Centered Design determining how we interact with multiple arenas in our lives, 
+there is one sign
+2025-06-02 21:49:12,437 - INFO - root - Preprocessed doc from Topic 5 lecture HCI.pdf, Content: [Source: Topic 5 lecture HCI.pdf] 
+
+2025-06-02 21:49:12,437 - INFO - root - Preprocessed doc from Topic 6 lecture HCI.pdf, Content: [Source: Topic 6 lecture HCI.pdf]  Topic 6: Psychology in Design
+Key principles
+The intersection of psychology and design is extensive. There’s an endless list of principles 
+that occupy this space
+2025-06-02 21:49:12,437 - INFO - root - Preprocessed doc from Topic 6 lecture HCI.pdf, Content: [Source: Topic 6 lecture HCI.pdf] 2. MILLER’S LAW
+Another key principle is Miller’s Law, which predicts that the average person can only keep 
+7 (± 2) items in their working memory. It originates fr
+2025-06-02 21:49:12,437 - INFO - root - Preprocessed doc from Topic 6 lecture HCI.pdf, Content: [Source: Topic 6 lecture HCI.pdf] 3. JAKOB’S LAW
+The last principle we’ll look at is Jakob’s Law (short for Jakob’s Law of Internet User 
+Experience), which states that users spend most of their tim
+2025-06-02 21:49:12,437 - INFO - root - Preprocessed doc from Topic 6 lecture HCI.pdf, Content: [Source: Topic 6 lecture HCI.pdf] 
+
+2025-06-02 21:49:12,920 - INFO - root - Doc 0: Assigned section '1. Introduction' to chunk from Topic 2 lecture HCI.pdf
+2025-06-02 21:49:12,920 - INFO - root - Doc 1: Assigned section '1. Introduction' to chunk from Topic 2 lecture HCI.pdf
+2025-06-02 21:49:12,920 - INFO - root - Doc 2: Assigned section '1. Introduction' to chunk from Topic 2 lecture HCI.pdf
+2025-06-02 21:49:12,920 - INFO - root - Doc 3: Assigned section '1. Introduction' to chunk from Topic 2 lecture HCI.pdf
+2025-06-02 21:49:12,920 - INFO - root - Doc 4: Assigned section '1. Definition of the Computer Revolution' to chunk from Topic 3 lecture HCI.pdf
+2025-06-02 21:49:12,920 - INFO - root - Doc 5: Assigned section '1. Definition of the Computer Revolution' to chunk from Topic 3 lecture HCI.pdf
+2025-06-02 21:49:12,920 - INFO - root - Doc 6: Assigned section '1. Definition of the Computer Revolution' to chunk from Topic 3 lecture HCI.pdf
+2025-06-02 21:49:12,920 - INFO - root - Doc 7: Assigned section '1. Definition of the Computer Revolution' to chunk from Topic 3 lecture HCI.pdf
+2025-06-02 21:49:12,921 - INFO - root - Doc 8: Assigned section '1. Learnability' to chunk from Topic 4 lecture HCI.pdf
+2025-06-02 21:49:12,921 - INFO - root - Doc 9: Assigned section '1. Learnability' to chunk from Topic 4 lecture HCI.pdf
+2025-06-02 21:49:12,921 - INFO - root - Doc 10: Assigned section '1. Learnability' to chunk from Topic 4 lecture HCI.pdf
+2025-06-02 21:49:12,921 - INFO - root - Doc 11: Assigned section '1. Learnability' to chunk from Topic 4 lecture HCI.pdf
+2025-06-02 21:49:12,921 - INFO - root - Doc 12: Assigned section '1. Adaptive interfaces' to chunk from Topic 5 lecture HCI.pdf
+2025-06-02 21:49:12,921 - INFO - root - Doc 13: Assigned section '1. Adaptive interfaces' to chunk from Topic 5 lecture HCI.pdf
+2025-06-02 21:49:12,921 - INFO - root - Doc 14: Assigned section '1. Left / Right hand dominant users' to chunk from Topic 5 lecture HCI.pdf
+2025-06-02 21:49:12,921 - INFO - root - Doc 15: Assigned section '2. Motor Differences' to chunk from Topic 5 lecture HCI.pdf
+2025-06-02 21:49:12,921 - INFO - root - Doc 16: Assigned section '2. Motor Differences' to chunk from Topic 5 lecture HCI.pdf
+2025-06-02 21:49:12,921 - INFO - root - Doc 17: Assigned section '1. HICK’S LAW' to chunk from Topic 6 lecture HCI.pdf
+2025-06-02 21:49:12,921 - INFO - root - Doc 18: Assigned section '1. HICK’S LAW' to chunk from Topic 6 lecture HCI.pdf
+2025-06-02 21:49:12,923 - INFO - root - Doc 19: Assigned section '1. HICK’S LAW' to chunk from Topic 6 lecture HCI.pdf
+2025-06-02 21:49:12,923 - INFO - root - Doc 20: Assigned section '1. HICK’S LAW' to chunk from Topic 6 lecture HCI.pdf
+2025-06-02 21:49:12,923 - INFO - root - Doc 21: Assigned section '1. HICK’S LAW' to chunk from Topic 6 lecture HCI.pdf
+2025-06-02 21:49:12,923 - INFO - root - Chunk: {'source': './resources\\Topic 2 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 2 lecture HCI.pdf', 'section': '1. Introduction'}, Content: [Source: Topic 2 lecture HCI.pdf] Topic 2: Cultural factors in HCI design
+[SECTION: 1. Introduction]
+1. Introduction
+[SECTION: 1. Introduction]
+Designing technology that is inclusive and culturally 
+2025-06-02 21:49:12,923 - INFO - root - Chunk: {'source': './resources\\Topic 2 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 2 lecture HCI.pdf', 'section': '1. Introduction'}, Content: [SECTION: 1. Introduction]
+the world, and even express emotions. Language, a key cultural element, impacts how we perceive 
+[SECTION: 1. Introduction]
+and understand information. Cultural backgrounds
+2025-06-02 21:49:12,923 - INFO - root - Chunk: {'source': './resources\\Topic 2 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 2 lecture HCI.pdf', 'section': '1. Introduction'}, Content: [Source: Topic 2 lecture HCI.pdf] 2. Cultural Models as Design Guidelines
+Power Distance
+High power distance cultures tend to be more hierarchical, with a clear division of roles and 
+responsibilit
+2025-06-02 21:49:12,923 - INFO - root - Chunk: {'source': './resources\\Topic 2 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 2 lecture HCI.pdf', 'section': '1. Introduction'}, Content: [Source: Topic 2 lecture HCI.pdf] 3. Research Challenges In The Real World
+When applying UX research methods for designing for cultural diversity in the real world, there are a 
+number of potential 
+2025-06-02 21:49:12,923 - INFO - root - Chunk: {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, Content: [Source: Topic 3 lecture HCI.pdf] Topic 3: Computer revolution and trends forecast to 2050
+[SECTION: 1. Definition of the Computer Revolution]
+1. Definition of the Computer Revolution
+[SECTION: 1. D
+2025-06-02 21:49:12,923 - INFO - root - Chunk: {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, Content: [Source: Topic 3 lecture HCI.pdf] 2. Importance of understanding technological evolution
+Revolution is a bigger force shaping our world now than it ever has been. Each era of the computing 
+revoluti
+2025-06-02 21:49:12,923 - INFO - root - Chunk: {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, Content: became a phenomenon not because of the PC itself but because of the breadth of things people did 
+with them. PCs are a platform for others to build on top of. The internet changed the world not 
+bec
+2025-06-02 21:49:12,923 - INFO - root - Chunk: {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, Content: [Source: Topic 3 lecture HCI.pdf] 3. Current Technological Trends
+Augmented Reality
+AR overlays digital elements on the real world using sensors like GPS to track location and direction. 
+Populariz
+2025-06-02 21:49:12,923 - INFO - root - Chunk: {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, Content: [Source: Topic 4 lecture HCI.pdf] Topic 4: Design Principles
+[SECTION: 1. Learnability]
+1. Learnability
+[SECTION: 1. Learnability]
+Learnability principles are concerned with interactive system featu
+2025-06-02 21:49:12,923 - INFO - root - Chunk: {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, Content: [SECTION: 1. Learnability]
+The appearance of an object provides familiarity with its behaviour. Effective use of appearance in 
+[SECTION: 1. Learnability]
+an interactive system design can improve the
+2025-06-02 21:49:12,923 - INFO - root - Chunk: {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, Content: [Source: Topic 4 lecture HCI.pdf] 2. Flexibility
+Flexibility in interactive design extends the way a user and the system exchange information. By 
+applying flexibility principles to an interactive s
+2025-06-02 21:49:12,923 - INFO - root - Flexibility chunk: {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, Content: [Source: Topic 4 lecture HCI.pdf] 2. Flexibility
+Flexibility in interactive design extends the way a user and the system exchange information. By 
+applying flexibility principles to an interactive s
+2025-06-02 21:49:12,923 - INFO - root - Chunk: {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, Content: [Source: Topic 4 lecture HCI.pdf] 3. Robustness
+The robustness of an interface design can be measured in terms of the following four principles. 
+These principles aim to support users to achieve the
+2025-06-02 21:49:12,923 - INFO - root - Chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '1. Adaptive interfaces'}, Content: [Source: Topic 5 lecture HCI.pdf]  Topic 5: Adaptive and Personalized interfaces
+[SECTION: 1. Adaptive interfaces]
+1. Adaptive interfaces
+[SECTION: 1. Adaptive interfaces]
+An Adaptive User Interface
+2025-06-02 21:49:12,923 - INFO - root - Flexibility chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '1. Adaptive interfaces'}, Content: [Source: Topic 5 lecture HCI.pdf]  Topic 5: Adaptive and Personalized interfaces
+[SECTION: 1. Adaptive interfaces]
+1. Adaptive interfaces
+[SECTION: 1. Adaptive interfaces]
+An Adaptive User Interface
+2025-06-02 21:49:12,923 - INFO - root - Chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '1. Adaptive interfaces'}, Content: [SECTION: 1. Adaptive interfaces]
+the size of the buttons on their browser, or change the look of the buttons altogether. Instead of using 
+[SECTION: 1. Adaptive interfaces]
+a ring tone on a mobile p
+2025-06-02 21:49:12,923 - INFO - root - Flexibility chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '1. Adaptive interfaces'}, Content: [SECTION: 1. Adaptive interfaces]
+the size of the buttons on their browser, or change the look of the buttons altogether. Instead of using 
+[SECTION: 1. Adaptive interfaces]
+a ring tone on a mobile p
+2025-06-02 21:49:12,923 - INFO - root - Chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '1. Left / Right hand dominant users'}, Content: [Source: Topic 5 lecture HCI.pdf] 2. Discussion about Personalized user interface
+At a time of Human Centered Design determining how we interact with multiple arenas in our lives, 
+there is one sign
+2025-06-02 21:49:12,924 - INFO - root - Chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '2. Motor Differences'}, Content: [SECTION: 1. Left / Right hand dominant users]
+that for a right hander, the ‘Yes’ button appears closer, and the decision making time (or fixation to 
+[SECTION: 1. Left / Right hand dominant users]
+a
+2025-06-02 21:49:12,924 - INFO - root - Chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '2. Motor Differences'}, Content: [Source: Topic 5 lecture HCI.pdf]
+2025-06-02 21:49:12,924 - INFO - root - Chunk: {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, Content: [Source: Topic 6 lecture HCI.pdf]  Topic 6: Psychology in Design
+Key principles
+The intersection of psychology and design is extensive. There’s an endless list of principles 
+that occupy this space
+2025-06-02 21:49:12,924 - INFO - root - Chunk: {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, Content: Cognitive load refers to the mental processing power being used by our working memory. 
+[SECTION: 1. HICK’S LAW]
+Our brains are similar to computer processors in that we have limited processing power
+2025-06-02 21:49:12,924 - INFO - root - Chunk: {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, Content: [Source: Topic 6 lecture HCI.pdf] 2. MILLER’S LAW
+Another key principle is Miller’s Law, which predicts that the average person can only keep 
+7 (± 2) items in their working memory. It originates fr
+2025-06-02 21:49:12,924 - INFO - root - Chunk: {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, Content: [Source: Topic 6 lecture HCI.pdf] 3. JAKOB’S LAW
+The last principle we’ll look at is Jakob’s Law (short for Jakob’s Law of Internet User 
+Experience), which states that users spend most of their tim
+2025-06-02 21:49:12,924 - INFO - root - Chunk: {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 3, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, Content: [Source: Topic 6 lecture HCI.pdf]
+2025-06-02 21:49:12,986 - INFO - chromadb.telemetry.product.posthog - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-02 21:49:15,685 - INFO - root - Hybrid retriever initialized with balanced weights
+2025-06-02 21:49:15,720 - INFO - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-02 21:49:15,720 - INFO - werkzeug - [33mPress CTRL+C to quit[0m
+2025-06-02 21:49:15,724 - INFO - werkzeug -  * Restarting with stat
+2025-06-02 21:49:22,243 - INFO - sentence_transformers.SentenceTransformer - Use pytorch device_name: cpu
+2025-06-02 21:49:22,243 - INFO - sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L12-v2
+2025-06-02 21:49:25,881 - INFO - sentence_transformers.SentenceTransformer - Use pytorch device_name: cpu
+2025-06-02 21:49:25,881 - INFO - sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: all-MiniLM-L12-v2
+2025-06-02 21:49:28,631 - INFO - root - Embeddings and SentenceTransformer initialized
+2025-06-02 21:49:28,645 - INFO - root - Gemini 1.5 Flash model initialized
+2025-06-02 21:49:28,645 - INFO - root - Found lecture note PDF files: ['Topic 2 lecture HCI.pdf', 'Topic 3 lecture HCI.pdf', 'Topic 4 lecture HCI.pdf', 'Topic 5 lecture HCI.pdf', 'Topic 6 lecture HCI.pdf']
+2025-06-02 21:49:28,813 - INFO - root - Loaded 16 page-level documents from 5 PDFs
+2025-06-02 21:49:28,815 - INFO - root - Preprocessed doc from Topic 2 lecture HCI.pdf, Content: [Source: Topic 2 lecture HCI.pdf] Topic 2: Cultural factors in HCI design
+[SECTION: 1. Introduction]
+1. Introduction
+[SECTION: 1. Introduction]
+Designing technology that is inclusive and culturally 
+2025-06-02 21:49:28,816 - INFO - root - Preprocessed doc from Topic 2 lecture HCI.pdf, Content: [Source: Topic 2 lecture HCI.pdf] 2. Cultural Models as Design Guidelines
+Power Distance
+High power distance cultures tend to be more hierarchical, with a clear division of roles and 
+responsibilit
+2025-06-02 21:49:28,816 - INFO - root - Preprocessed doc from Topic 2 lecture HCI.pdf, Content: [Source: Topic 2 lecture HCI.pdf] 3. Research Challenges In The Real World
+When applying UX research methods for designing for cultural diversity in the real world, there are a 
+number of potential 
+2025-06-02 21:49:28,816 - INFO - root - Preprocessed doc from Topic 3 lecture HCI.pdf, Content: [Source: Topic 3 lecture HCI.pdf] Topic 3: Computer revolution and trends forecast to 2050
+[SECTION: 1. Definition of the Computer Revolution]
+1. Definition of the Computer Revolution
+[SECTION: 1. D
+2025-06-02 21:49:28,816 - INFO - root - Preprocessed doc from Topic 3 lecture HCI.pdf, Content: [Source: Topic 3 lecture HCI.pdf] 2. Importance of understanding technological evolution
+Revolution is a bigger force shaping our world now than it ever has been. Each era of the computing 
+revoluti
+2025-06-02 21:49:28,816 - INFO - root - Preprocessed doc from Topic 3 lecture HCI.pdf, Content: [Source: Topic 3 lecture HCI.pdf] 3. Current Technological Trends
+Augmented Reality
+AR overlays digital elements on the real world using sensors like GPS to track location and direction. 
+Populariz
+2025-06-02 21:49:28,816 - INFO - root - Preprocessed doc from Topic 4 lecture HCI.pdf, Content: [Source: Topic 4 lecture HCI.pdf] Topic 4: Design Principles
+[SECTION: 1. Learnability]
+1. Learnability
+[SECTION: 1. Learnability]
+Learnability principles are concerned with interactive system featu
+2025-06-02 21:49:28,816 - INFO - root - Preprocessed doc from Topic 4 lecture HCI.pdf, Content: [Source: Topic 4 lecture HCI.pdf] 2. Flexibility
+Flexibility in interactive design extends the way a user and the system exchange information. By 
+applying flexibility principles to an interactive s
+2025-06-02 21:49:28,816 - INFO - root - Preprocessed doc from Topic 4 lecture HCI.pdf, Content: [Source: Topic 4 lecture HCI.pdf] 3. Robustness
+The robustness of an interface design can be measured in terms of the following four principles. 
+These principles aim to support users to achieve the
+2025-06-02 21:49:28,816 - INFO - root - Preprocessed doc from Topic 5 lecture HCI.pdf, Content: [Source: Topic 5 lecture HCI.pdf]  Topic 5: Adaptive and Personalized interfaces
+[SECTION: 1. Adaptive interfaces]
+1. Adaptive interfaces
+[SECTION: 1. Adaptive interfaces]
+An Adaptive User Interface
+2025-06-02 21:49:28,816 - INFO - root - Preprocessed doc from Topic 5 lecture HCI.pdf, Content: [Source: Topic 5 lecture HCI.pdf] 2. Discussion about Personalized user interface
+At a time of Human Centered Design determining how we interact with multiple arenas in our lives, 
+there is one sign
+2025-06-02 21:49:28,816 - INFO - root - Preprocessed doc from Topic 5 lecture HCI.pdf, Content: [Source: Topic 5 lecture HCI.pdf] 
+
+2025-06-02 21:49:28,816 - INFO - root - Preprocessed doc from Topic 6 lecture HCI.pdf, Content: [Source: Topic 6 lecture HCI.pdf]  Topic 6: Psychology in Design
+Key principles
+The intersection of psychology and design is extensive. There’s an endless list of principles 
+that occupy this space
+2025-06-02 21:49:28,816 - INFO - root - Preprocessed doc from Topic 6 lecture HCI.pdf, Content: [Source: Topic 6 lecture HCI.pdf] 2. MILLER’S LAW
+Another key principle is Miller’s Law, which predicts that the average person can only keep 
+7 (± 2) items in their working memory. It originates fr
+2025-06-02 21:49:28,816 - INFO - root - Preprocessed doc from Topic 6 lecture HCI.pdf, Content: [Source: Topic 6 lecture HCI.pdf] 3. JAKOB’S LAW
+The last principle we’ll look at is Jakob’s Law (short for Jakob’s Law of Internet User 
+Experience), which states that users spend most of their tim
+2025-06-02 21:49:28,816 - INFO - root - Preprocessed doc from Topic 6 lecture HCI.pdf, Content: [Source: Topic 6 lecture HCI.pdf] 
+
+2025-06-02 21:49:29,081 - INFO - root - Doc 0: Assigned section '1. Introduction' to chunk from Topic 2 lecture HCI.pdf
+2025-06-02 21:49:29,081 - INFO - root - Doc 1: Assigned section '1. Introduction' to chunk from Topic 2 lecture HCI.pdf
+2025-06-02 21:49:29,081 - INFO - root - Doc 2: Assigned section '1. Introduction' to chunk from Topic 2 lecture HCI.pdf
+2025-06-02 21:49:29,081 - INFO - root - Doc 3: Assigned section '1. Introduction' to chunk from Topic 2 lecture HCI.pdf
+2025-06-02 21:49:29,081 - INFO - root - Doc 4: Assigned section '1. Definition of the Computer Revolution' to chunk from Topic 3 lecture HCI.pdf
+2025-06-02 21:49:29,081 - INFO - root - Doc 5: Assigned section '1. Definition of the Computer Revolution' to chunk from Topic 3 lecture HCI.pdf
+2025-06-02 21:49:29,081 - INFO - root - Doc 6: Assigned section '1. Definition of the Computer Revolution' to chunk from Topic 3 lecture HCI.pdf
+2025-06-02 21:49:29,081 - INFO - root - Doc 7: Assigned section '1. Definition of the Computer Revolution' to chunk from Topic 3 lecture HCI.pdf
+2025-06-02 21:49:29,081 - INFO - root - Doc 8: Assigned section '1. Learnability' to chunk from Topic 4 lecture HCI.pdf
+2025-06-02 21:49:29,081 - INFO - root - Doc 9: Assigned section '1. Learnability' to chunk from Topic 4 lecture HCI.pdf
+2025-06-02 21:49:29,081 - INFO - root - Doc 10: Assigned section '1. Learnability' to chunk from Topic 4 lecture HCI.pdf
+2025-06-02 21:49:29,081 - INFO - root - Doc 11: Assigned section '1. Learnability' to chunk from Topic 4 lecture HCI.pdf
+2025-06-02 21:49:29,081 - INFO - root - Doc 12: Assigned section '1. Adaptive interfaces' to chunk from Topic 5 lecture HCI.pdf
+2025-06-02 21:49:29,082 - INFO - root - Doc 13: Assigned section '1. Adaptive interfaces' to chunk from Topic 5 lecture HCI.pdf
+2025-06-02 21:49:29,082 - INFO - root - Doc 14: Assigned section '1. Left / Right hand dominant users' to chunk from Topic 5 lecture HCI.pdf
+2025-06-02 21:49:29,082 - INFO - root - Doc 15: Assigned section '2. Motor Differences' to chunk from Topic 5 lecture HCI.pdf
+2025-06-02 21:49:29,082 - INFO - root - Doc 16: Assigned section '2. Motor Differences' to chunk from Topic 5 lecture HCI.pdf
+2025-06-02 21:49:29,082 - INFO - root - Doc 17: Assigned section '1. HICK’S LAW' to chunk from Topic 6 lecture HCI.pdf
+2025-06-02 21:49:29,082 - INFO - root - Doc 18: Assigned section '1. HICK’S LAW' to chunk from Topic 6 lecture HCI.pdf
+2025-06-02 21:49:29,082 - INFO - root - Doc 19: Assigned section '1. HICK’S LAW' to chunk from Topic 6 lecture HCI.pdf
+2025-06-02 21:49:29,082 - INFO - root - Doc 20: Assigned section '1. HICK’S LAW' to chunk from Topic 6 lecture HCI.pdf
+2025-06-02 21:49:29,082 - INFO - root - Doc 21: Assigned section '1. HICK’S LAW' to chunk from Topic 6 lecture HCI.pdf
+2025-06-02 21:49:29,082 - INFO - root - Chunk: {'source': './resources\\Topic 2 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 2 lecture HCI.pdf', 'section': '1. Introduction'}, Content: [Source: Topic 2 lecture HCI.pdf] Topic 2: Cultural factors in HCI design
+[SECTION: 1. Introduction]
+1. Introduction
+[SECTION: 1. Introduction]
+Designing technology that is inclusive and culturally 
+2025-06-02 21:49:29,082 - INFO - root - Chunk: {'source': './resources\\Topic 2 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 2 lecture HCI.pdf', 'section': '1. Introduction'}, Content: [SECTION: 1. Introduction]
+the world, and even express emotions. Language, a key cultural element, impacts how we perceive 
+[SECTION: 1. Introduction]
+and understand information. Cultural backgrounds
+2025-06-02 21:49:29,082 - INFO - root - Chunk: {'source': './resources\\Topic 2 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 2 lecture HCI.pdf', 'section': '1. Introduction'}, Content: [Source: Topic 2 lecture HCI.pdf] 2. Cultural Models as Design Guidelines
+Power Distance
+High power distance cultures tend to be more hierarchical, with a clear division of roles and 
+responsibilit
+2025-06-02 21:49:29,082 - INFO - root - Chunk: {'source': './resources\\Topic 2 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 2 lecture HCI.pdf', 'section': '1. Introduction'}, Content: [Source: Topic 2 lecture HCI.pdf] 3. Research Challenges In The Real World
+When applying UX research methods for designing for cultural diversity in the real world, there are a 
+number of potential 
+2025-06-02 21:49:29,082 - INFO - root - Chunk: {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, Content: [Source: Topic 3 lecture HCI.pdf] Topic 3: Computer revolution and trends forecast to 2050
+[SECTION: 1. Definition of the Computer Revolution]
+1. Definition of the Computer Revolution
+[SECTION: 1. D
+2025-06-02 21:49:29,082 - INFO - root - Chunk: {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, Content: [Source: Topic 3 lecture HCI.pdf] 2. Importance of understanding technological evolution
+Revolution is a bigger force shaping our world now than it ever has been. Each era of the computing 
+revoluti
+2025-06-02 21:49:29,082 - INFO - root - Chunk: {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, Content: became a phenomenon not because of the PC itself but because of the breadth of things people did 
+with them. PCs are a platform for others to build on top of. The internet changed the world not 
+bec
+2025-06-02 21:49:29,082 - INFO - root - Chunk: {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, Content: [Source: Topic 3 lecture HCI.pdf] 3. Current Technological Trends
+Augmented Reality
+AR overlays digital elements on the real world using sensors like GPS to track location and direction. 
+Populariz
+2025-06-02 21:49:29,082 - INFO - root - Chunk: {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, Content: [Source: Topic 4 lecture HCI.pdf] Topic 4: Design Principles
+[SECTION: 1. Learnability]
+1. Learnability
+[SECTION: 1. Learnability]
+Learnability principles are concerned with interactive system featu
+2025-06-02 21:49:29,082 - INFO - root - Chunk: {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, Content: [SECTION: 1. Learnability]
+The appearance of an object provides familiarity with its behaviour. Effective use of appearance in 
+[SECTION: 1. Learnability]
+an interactive system design can improve the
+2025-06-02 21:49:29,082 - INFO - root - Chunk: {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, Content: [Source: Topic 4 lecture HCI.pdf] 2. Flexibility
+Flexibility in interactive design extends the way a user and the system exchange information. By 
+applying flexibility principles to an interactive s
+2025-06-02 21:49:29,082 - INFO - root - Flexibility chunk: {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, Content: [Source: Topic 4 lecture HCI.pdf] 2. Flexibility
+Flexibility in interactive design extends the way a user and the system exchange information. By 
+applying flexibility principles to an interactive s
+2025-06-02 21:49:29,082 - INFO - root - Chunk: {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, Content: [Source: Topic 4 lecture HCI.pdf] 3. Robustness
+The robustness of an interface design can be measured in terms of the following four principles. 
+These principles aim to support users to achieve the
+2025-06-02 21:49:29,082 - INFO - root - Chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '1. Adaptive interfaces'}, Content: [Source: Topic 5 lecture HCI.pdf]  Topic 5: Adaptive and Personalized interfaces
+[SECTION: 1. Adaptive interfaces]
+1. Adaptive interfaces
+[SECTION: 1. Adaptive interfaces]
+An Adaptive User Interface
+2025-06-02 21:49:29,083 - INFO - root - Flexibility chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '1. Adaptive interfaces'}, Content: [Source: Topic 5 lecture HCI.pdf]  Topic 5: Adaptive and Personalized interfaces
+[SECTION: 1. Adaptive interfaces]
+1. Adaptive interfaces
+[SECTION: 1. Adaptive interfaces]
+An Adaptive User Interface
+2025-06-02 21:49:29,083 - INFO - root - Chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '1. Adaptive interfaces'}, Content: [SECTION: 1. Adaptive interfaces]
+the size of the buttons on their browser, or change the look of the buttons altogether. Instead of using 
+[SECTION: 1. Adaptive interfaces]
+a ring tone on a mobile p
+2025-06-02 21:49:29,083 - INFO - root - Flexibility chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '1. Adaptive interfaces'}, Content: [SECTION: 1. Adaptive interfaces]
+the size of the buttons on their browser, or change the look of the buttons altogether. Instead of using 
+[SECTION: 1. Adaptive interfaces]
+a ring tone on a mobile p
+2025-06-02 21:49:29,083 - INFO - root - Chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '1. Left / Right hand dominant users'}, Content: [Source: Topic 5 lecture HCI.pdf] 2. Discussion about Personalized user interface
+At a time of Human Centered Design determining how we interact with multiple arenas in our lives, 
+there is one sign
+2025-06-02 21:49:29,083 - INFO - root - Chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '2. Motor Differences'}, Content: [SECTION: 1. Left / Right hand dominant users]
+that for a right hander, the ‘Yes’ button appears closer, and the decision making time (or fixation to 
+[SECTION: 1. Left / Right hand dominant users]
+a
+2025-06-02 21:49:29,083 - INFO - root - Chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '2. Motor Differences'}, Content: [Source: Topic 5 lecture HCI.pdf]
+2025-06-02 21:49:29,083 - INFO - root - Chunk: {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, Content: [Source: Topic 6 lecture HCI.pdf]  Topic 6: Psychology in Design
+Key principles
+The intersection of psychology and design is extensive. There’s an endless list of principles 
+that occupy this space
+2025-06-02 21:49:29,083 - INFO - root - Chunk: {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, Content: Cognitive load refers to the mental processing power being used by our working memory. 
+[SECTION: 1. HICK’S LAW]
+Our brains are similar to computer processors in that we have limited processing power
+2025-06-02 21:49:29,083 - INFO - root - Chunk: {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, Content: [Source: Topic 6 lecture HCI.pdf] 2. MILLER’S LAW
+Another key principle is Miller’s Law, which predicts that the average person can only keep 
+7 (± 2) items in their working memory. It originates fr
+2025-06-02 21:49:29,083 - INFO - root - Chunk: {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, Content: [Source: Topic 6 lecture HCI.pdf] 3. JAKOB’S LAW
+The last principle we’ll look at is Jakob’s Law (short for Jakob’s Law of Internet User 
+Experience), which states that users spend most of their tim
+2025-06-02 21:49:29,083 - INFO - root - Chunk: {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 3, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, Content: [Source: Topic 6 lecture HCI.pdf]
+2025-06-02 21:49:29,120 - INFO - chromadb.telemetry.product.posthog - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-02 21:49:30,553 - INFO - root - Hybrid retriever initialized with balanced weights
+2025-06-02 21:49:30,562 - WARNING - werkzeug -  * Debugger is active!
+2025-06-02 21:49:30,565 - INFO - werkzeug -  * Debugger PIN: 741-656-962
+2025-06-02 21:52:06,262 - INFO - root - Processing query: How can you apply the design principle to help on advancing through business idea?
+2025-06-02 21:52:06,263 - INFO - root - Query classified as: hci-related
+2025-06-02 21:52:06,311 - INFO - root - Hybrid retrieved 8 docs: [{'page': 0, 'source': './resources\\Topic 6 lecture HCI.pdf', 'source_file': 'Topic 6 lecture HCI.pdf'}, {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, {'source': './resources\\Topic 2 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 2 lecture HCI.pdf', 'section': '1. Introduction'}, {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, {'source': './resources\\Topic 2 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 2 lecture HCI.pdf', 'section': '1. Introduction'}]
+2025-06-02 21:52:06,311 - INFO - root - Aggregated 5 chunks for query: How can you apply the design principle to help on advancing through business idea?, top section: [Source: Topic 6 lecture HCI.pdf]  Topic 6: Psychology in Design
+Key principles
+The intersection o
+2025-06-02 21:52:06,543 - INFO - root - Reranking scores: [('[Source: Topic 6 lecture HCI.pdf]  Topic 6: Psycho', 0.5087599754333496)]
+2025-06-02 21:52:06,544 - INFO - root - No relevant keywords in context for query: How can you apply the design principle to help on advancing through business idea?
+2025-06-02 21:52:06,569 - INFO - werkzeug - 127.0.0.1 - - [02/Jun/2025 21:52:06] "POST /api/chat HTTP/1.1" 200 -
+2025-06-02 21:52:43,248 - INFO - root - Processing query: what is learnability
+2025-06-02 21:52:43,248 - INFO - root - Query classified as: hci-related
+2025-06-02 21:52:43,282 - INFO - root - Hybrid retrieved 8 docs: [{'page': 0, 'source': './resources\\Topic 4 lecture HCI.pdf', 'source_file': 'Topic 4 lecture HCI.pdf'}, {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '2. Motor Differences'}]
+2025-06-02 21:52:43,282 - INFO - root - Aggregated 5 chunks for query: what is learnability, top section: [Source: Topic 4 lecture HCI.pdf] Topic 4: Design Principles
+1. Learnability
+Learnability principl
+2025-06-02 21:52:43,384 - INFO - root - Reranking scores: [('[Source: Topic 4 lecture HCI.pdf] Topic 4: Design ', 0.6494666337966919)]
+2025-06-02 21:52:43,384 - INFO - root - Prompt sent to Gemini: 
+You are Niko, an expert HCI course tutor. Using only the provided lecture note context, answer the question with a clear, concise, and professional explanation, focusing on Human-Computer Interaction...
+2025-06-02 21:52:46,152 - INFO - root - Raw Gemini response: Learnability in HCI refers to how easily users can learn to use an interactive system.
+
+*   **Simplicity:**  _A simple interface is easier to use._  Design should prioritize simple tasks and clear com...
+2025-06-02 21:52:46,153 - INFO - root - Response prepared in 2.90 seconds: Learnability in HCI refers to how easily users can learn to use an interactive system.
+
+*   **Simpli
+2025-06-02 21:52:46,153 - INFO - werkzeug - 127.0.0.1 - - [02/Jun/2025 21:52:46] "POST /api/chat HTTP/1.1" 200 -
+2025-06-02 21:55:19,243 - INFO - root - Processing query: what is the Predictability
+2025-06-02 21:55:19,244 - INFO - root - Query classified as: hci-related
+2025-06-02 21:55:19,296 - INFO - root - Hybrid retrieved 10 docs: [{'page': 2, 'section': '2. Motor Differences', 'source': './resources\\Topic 5 lecture HCI.pdf', 'source_file': 'Topic 5 lecture HCI.pdf'}, {'page': 0, 'section': '1. Learnability', 'source': './resources\\Topic 4 lecture HCI.pdf', 'source_file': 'Topic 4 lecture HCI.pdf'}, {'page': 2, 'section': '1. Learnability', 'source': './resources\\Topic 4 lecture HCI.pdf', 'source_file': 'Topic 4 lecture HCI.pdf'}, {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, {'page': 0, 'section': '1. Adaptive interfaces', 'source': './resources\\Topic 5 lecture HCI.pdf', 'source_file': 'Topic 5 lecture HCI.pdf'}, {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '2. Motor Differences'}, {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}]
+2025-06-02 21:55:19,297 - INFO - root - Aggregated 5 chunks for query: what is the Predictability, top section: [Source: Topic 4 lecture HCI.pdf] Topic 4: Design Principles
+[SECTION: 1. Learnability]
+1. Learnabi
+2025-06-02 21:55:19,464 - INFO - root - Reranking scores: [('[Source: Topic 4 lecture HCI.pdf] Topic 4: Design ', 0.2974437177181244)]
+2025-06-02 21:55:19,464 - INFO - root - Prompt sent to Gemini: 
+You are Niko, an expert HCI course tutor. Using only the provided lecture note context, answer the question with a clear, concise, and professional explanation, focusing on Human-Computer Interaction...
+2025-06-02 21:55:21,446 - INFO - root - Raw Gemini response: Predictability in HCI ensures users can determine interaction outcomes.
+
+*   **Predictability:** *Users' knowledge of interaction should be sufficient to predict the outcome of current or future inter...
+2025-06-02 21:55:21,446 - INFO - root - Response prepared in 2.20 seconds: Predictability in HCI ensures users can determine interaction outcomes.
+
+*   **Predictability:** *Us
+2025-06-02 21:55:21,447 - INFO - werkzeug - 127.0.0.1 - - [02/Jun/2025 21:55:21] "POST /api/chat HTTP/1.1" 200 -
+2025-06-02 21:56:48,252 - INFO - root - Processing query: what is the purpose of this chatbot
+2025-06-02 21:56:48,252 - INFO - root - Query classified as: non-hci
+2025-06-02 21:56:48,252 - INFO - root - Prompt sent to Gemini: 
+            You are Niko, a friendly AI assistant for the HANU HCI course. Answer the following question clearly, concisely, and in Markdown format:
+            - Start with a one-sentence summary.
+ ...
+2025-06-02 21:56:48,764 - INFO - root - Raw Gemini response: My purpose is to help students in the HANU HCI course by answering their questions.
+...
+2025-06-02 21:56:48,764 - INFO - root - Non-HCI response prepared in 0.51 seconds: My purpose is to help students in the HANU HCI course by answering their questions.
+2025-06-02 21:56:48,764 - INFO - werkzeug - 127.0.0.1 - - [02/Jun/2025 21:56:48] "POST /api/chat HTTP/1.1" 200 -
+2025-06-02 22:03:51,837 - INFO - root - Processing query: what is the Predictability
+2025-06-02 22:03:51,837 - INFO - root - Query classified as: hci-related
+2025-06-02 22:03:51,862 - INFO - root - Hybrid retrieved 10 docs: [{'page': 2, 'section': '2. Motor Differences', 'source': './resources\\Topic 5 lecture HCI.pdf', 'source_file': 'Topic 5 lecture HCI.pdf'}, {'page': 0, 'section': '1. Learnability', 'source': './resources\\Topic 4 lecture HCI.pdf', 'source_file': 'Topic 4 lecture HCI.pdf'}, {'page': 2, 'section': '1. Learnability', 'source': './resources\\Topic 4 lecture HCI.pdf', 'source_file': 'Topic 4 lecture HCI.pdf'}, {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, {'page': 0, 'section': '1. Adaptive interfaces', 'source': './resources\\Topic 5 lecture HCI.pdf', 'source_file': 'Topic 5 lecture HCI.pdf'}, {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '2. Motor Differences'}, {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}]
+2025-06-02 22:03:51,862 - INFO - root - Aggregated 5 chunks for query: what is the Predictability, top section: [Source: Topic 4 lecture HCI.pdf] Topic 4: Design Principles
+[SECTION: 1. Learnability]
+1. Learnabi
+2025-06-02 22:03:51,943 - INFO - root - Reranking scores: [('[Source: Topic 4 lecture HCI.pdf] Topic 4: Design ', 0.2974437177181244)]
+2025-06-02 22:03:51,944 - INFO - root - Prompt sent to Gemini: 
+You are Niko, an expert HCI course tutor. Using only the provided lecture note context, answer the question with a clear, concise, and professional explanation, focusing on Human-Computer Interaction...
+2025-06-02 22:03:54,290 - INFO - root - Raw Gemini response: Predictability in interactive system design ensures users can determine the outcome of their interactions.
+
+*   **Predictability:** *A user's knowledge of interaction should be sufficient to determine...
+2025-06-02 22:03:54,290 - INFO - root - Response prepared in 2.45 seconds: Predictability in interactive system design ensures users can determine the outcome of their interac
+2025-06-02 22:03:54,291 - INFO - werkzeug - 127.0.0.1 - - [02/Jun/2025 22:03:54] "POST /api/chat HTTP/1.1" 200 -
+2025-06-11 03:42:26,147 - INFO - sentence_transformers.SentenceTransformer - Use pytorch device_name: cpu
+2025-06-11 03:42:26,148 - INFO - sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L12-v2
+2025-06-11 03:42:29,412 - INFO - sentence_transformers.SentenceTransformer - Use pytorch device_name: cpu
+2025-06-11 03:42:29,412 - INFO - sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: all-MiniLM-L12-v2
+2025-06-11 03:42:32,001 - INFO - root - Embeddings and SentenceTransformer initialized
+2025-06-11 03:42:32,061 - INFO - root - Gemini 1.5 Flash model initialized
+2025-06-11 03:42:32,062 - INFO - root - Found lecture note PDF files: ['Topic 2 lecture HCI.pdf', 'Topic 3 lecture HCI.pdf', 'Topic 4 lecture HCI.pdf', 'Topic 5 lecture HCI.pdf', 'Topic 6 lecture HCI.pdf']
+2025-06-11 03:42:32,360 - INFO - root - Loaded 16 page-level documents from 5 PDFs
+2025-06-11 03:42:32,361 - INFO - root - Preprocessed doc from Topic 2 lecture HCI.pdf, Content: [Source: Topic 2 lecture HCI.pdf] Topic 2: Cultural factors in HCI design
+[SECTION: 1. Introduction]
+1. Introduction
+[SECTION: 1. Introduction]
+Designing technology that is inclusive and culturally 
+2025-06-11 03:42:32,361 - INFO - root - Preprocessed doc from Topic 2 lecture HCI.pdf, Content: [Source: Topic 2 lecture HCI.pdf] 2. Cultural Models as Design Guidelines
+Power Distance
+High power distance cultures tend to be more hierarchical, with a clear division of roles and 
+responsibilit
+2025-06-11 03:42:32,361 - INFO - root - Preprocessed doc from Topic 2 lecture HCI.pdf, Content: [Source: Topic 2 lecture HCI.pdf] 3. Research Challenges In The Real World
+When applying UX research methods for designing for cultural diversity in the real world, there are a 
+number of potential 
+2025-06-11 03:42:32,361 - INFO - root - Preprocessed doc from Topic 3 lecture HCI.pdf, Content: [Source: Topic 3 lecture HCI.pdf] Topic 3: Computer revolution and trends forecast to 2050
+[SECTION: 1. Definition of the Computer Revolution]
+1. Definition of the Computer Revolution
+[SECTION: 1. D
+2025-06-11 03:42:32,361 - INFO - root - Preprocessed doc from Topic 3 lecture HCI.pdf, Content: [Source: Topic 3 lecture HCI.pdf] 2. Importance of understanding technological evolution
+Revolution is a bigger force shaping our world now than it ever has been. Each era of the computing 
+revoluti
+2025-06-11 03:42:32,362 - INFO - root - Preprocessed doc from Topic 3 lecture HCI.pdf, Content: [Source: Topic 3 lecture HCI.pdf] 3. Current Technological Trends
+Augmented Reality
+AR overlays digital elements on the real world using sensors like GPS to track location and direction. 
+Populariz
+2025-06-11 03:42:32,362 - INFO - root - Preprocessed doc from Topic 4 lecture HCI.pdf, Content: [Source: Topic 4 lecture HCI.pdf] Topic 4: Design Principles
+[SECTION: 1. Learnability]
+1. Learnability
+[SECTION: 1. Learnability]
+Learnability principles are concerned with interactive system featu
+2025-06-11 03:42:32,362 - INFO - root - Preprocessed doc from Topic 4 lecture HCI.pdf, Content: [Source: Topic 4 lecture HCI.pdf] 2. Flexibility
+Flexibility in interactive design extends the way a user and the system exchange information. By 
+applying flexibility principles to an interactive s
+2025-06-11 03:42:32,362 - INFO - root - Preprocessed doc from Topic 4 lecture HCI.pdf, Content: [Source: Topic 4 lecture HCI.pdf] 3. Robustness
+The robustness of an interface design can be measured in terms of the following four principles. 
+These principles aim to support users to achieve the
+2025-06-11 03:42:32,362 - INFO - root - Preprocessed doc from Topic 5 lecture HCI.pdf, Content: [Source: Topic 5 lecture HCI.pdf]  Topic 5: Adaptive and Personalized interfaces
+[SECTION: 1. Adaptive interfaces]
+1. Adaptive interfaces
+[SECTION: 1. Adaptive interfaces]
+An Adaptive User Interface
+2025-06-11 03:42:32,362 - INFO - root - Preprocessed doc from Topic 5 lecture HCI.pdf, Content: [Source: Topic 5 lecture HCI.pdf] 2. Discussion about Personalized user interface
+At a time of Human Centered Design determining how we interact with multiple arenas in our lives, 
+there is one sign
+2025-06-11 03:42:32,362 - INFO - root - Preprocessed doc from Topic 5 lecture HCI.pdf, Content: [Source: Topic 5 lecture HCI.pdf] 
+
+2025-06-11 03:42:32,362 - INFO - root - Preprocessed doc from Topic 6 lecture HCI.pdf, Content: [Source: Topic 6 lecture HCI.pdf]  Topic 6: Psychology in Design
+Key principles
+The intersection of psychology and design is extensive. There’s an endless list of principles 
+that occupy this space
+2025-06-11 03:42:32,362 - INFO - root - Preprocessed doc from Topic 6 lecture HCI.pdf, Content: [Source: Topic 6 lecture HCI.pdf] 2. MILLER’S LAW
+Another key principle is Miller’s Law, which predicts that the average person can only keep 
+7 (± 2) items in their working memory. It originates fr
+2025-06-11 03:42:32,362 - INFO - root - Preprocessed doc from Topic 6 lecture HCI.pdf, Content: [Source: Topic 6 lecture HCI.pdf] 3. JAKOB’S LAW
+The last principle we’ll look at is Jakob’s Law (short for Jakob’s Law of Internet User 
+Experience), which states that users spend most of their tim
+2025-06-11 03:42:32,362 - INFO - root - Preprocessed doc from Topic 6 lecture HCI.pdf, Content: [Source: Topic 6 lecture HCI.pdf] 
+
+2025-06-11 03:42:39,445 - INFO - root - Doc 0: Assigned section '1. Introduction' to chunk from Topic 2 lecture HCI.pdf
+2025-06-11 03:42:39,445 - INFO - root - Doc 1: Assigned section '1. Introduction' to chunk from Topic 2 lecture HCI.pdf
+2025-06-11 03:42:39,445 - INFO - root - Doc 2: Assigned section '1. Introduction' to chunk from Topic 2 lecture HCI.pdf
+2025-06-11 03:42:39,445 - INFO - root - Doc 3: Assigned section '1. Introduction' to chunk from Topic 2 lecture HCI.pdf
+2025-06-11 03:42:39,445 - INFO - root - Doc 4: Assigned section '1. Definition of the Computer Revolution' to chunk from Topic 3 lecture HCI.pdf
+2025-06-11 03:42:39,445 - INFO - root - Doc 5: Assigned section '1. Definition of the Computer Revolution' to chunk from Topic 3 lecture HCI.pdf
+2025-06-11 03:42:39,445 - INFO - root - Doc 6: Assigned section '1. Definition of the Computer Revolution' to chunk from Topic 3 lecture HCI.pdf
+2025-06-11 03:42:39,445 - INFO - root - Doc 7: Assigned section '1. Definition of the Computer Revolution' to chunk from Topic 3 lecture HCI.pdf
+2025-06-11 03:42:39,445 - INFO - root - Doc 8: Assigned section '1. Learnability' to chunk from Topic 4 lecture HCI.pdf
+2025-06-11 03:42:39,445 - INFO - root - Doc 9: Assigned section '1. Learnability' to chunk from Topic 4 lecture HCI.pdf
+2025-06-11 03:42:39,445 - INFO - root - Doc 10: Assigned section '1. Learnability' to chunk from Topic 4 lecture HCI.pdf
+2025-06-11 03:42:39,445 - INFO - root - Doc 11: Assigned section '1. Learnability' to chunk from Topic 4 lecture HCI.pdf
+2025-06-11 03:42:39,445 - INFO - root - Doc 12: Assigned section '1. Adaptive interfaces' to chunk from Topic 5 lecture HCI.pdf
+2025-06-11 03:42:39,445 - INFO - root - Doc 13: Assigned section '1. Adaptive interfaces' to chunk from Topic 5 lecture HCI.pdf
+2025-06-11 03:42:39,445 - INFO - root - Doc 14: Assigned section '1. Left / Right hand dominant users' to chunk from Topic 5 lecture HCI.pdf
+2025-06-11 03:42:39,445 - INFO - root - Doc 15: Assigned section '2. Motor Differences' to chunk from Topic 5 lecture HCI.pdf
+2025-06-11 03:42:39,445 - INFO - root - Doc 16: Assigned section '2. Motor Differences' to chunk from Topic 5 lecture HCI.pdf
+2025-06-11 03:42:39,445 - INFO - root - Doc 17: Assigned section '1. HICK’S LAW' to chunk from Topic 6 lecture HCI.pdf
+2025-06-11 03:42:39,445 - INFO - root - Doc 18: Assigned section '1. HICK’S LAW' to chunk from Topic 6 lecture HCI.pdf
+2025-06-11 03:42:39,445 - INFO - root - Doc 19: Assigned section '1. HICK’S LAW' to chunk from Topic 6 lecture HCI.pdf
+2025-06-11 03:42:39,445 - INFO - root - Doc 20: Assigned section '1. HICK’S LAW' to chunk from Topic 6 lecture HCI.pdf
+2025-06-11 03:42:39,445 - INFO - root - Doc 21: Assigned section '1. HICK’S LAW' to chunk from Topic 6 lecture HCI.pdf
+2025-06-11 03:42:39,445 - INFO - root - Chunk: {'source': './resources\\Topic 2 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 2 lecture HCI.pdf', 'section': '1. Introduction'}, Content: [Source: Topic 2 lecture HCI.pdf] Topic 2: Cultural factors in HCI design
+[SECTION: 1. Introduction]
+1. Introduction
+[SECTION: 1. Introduction]
+Designing technology that is inclusive and culturally 
+2025-06-11 03:42:39,446 - INFO - root - Chunk: {'source': './resources\\Topic 2 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 2 lecture HCI.pdf', 'section': '1. Introduction'}, Content: [SECTION: 1. Introduction]
+the world, and even express emotions. Language, a key cultural element, impacts how we perceive 
+[SECTION: 1. Introduction]
+and understand information. Cultural backgrounds
+2025-06-11 03:42:39,446 - INFO - root - Chunk: {'source': './resources\\Topic 2 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 2 lecture HCI.pdf', 'section': '1. Introduction'}, Content: [Source: Topic 2 lecture HCI.pdf] 2. Cultural Models as Design Guidelines
+Power Distance
+High power distance cultures tend to be more hierarchical, with a clear division of roles and 
+responsibilit
+2025-06-11 03:42:39,446 - INFO - root - Chunk: {'source': './resources\\Topic 2 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 2 lecture HCI.pdf', 'section': '1. Introduction'}, Content: [Source: Topic 2 lecture HCI.pdf] 3. Research Challenges In The Real World
+When applying UX research methods for designing for cultural diversity in the real world, there are a 
+number of potential 
+2025-06-11 03:42:39,446 - INFO - root - Chunk: {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, Content: [Source: Topic 3 lecture HCI.pdf] Topic 3: Computer revolution and trends forecast to 2050
+[SECTION: 1. Definition of the Computer Revolution]
+1. Definition of the Computer Revolution
+[SECTION: 1. D
+2025-06-11 03:42:39,446 - INFO - root - Chunk: {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, Content: [Source: Topic 3 lecture HCI.pdf] 2. Importance of understanding technological evolution
+Revolution is a bigger force shaping our world now than it ever has been. Each era of the computing 
+revoluti
+2025-06-11 03:42:39,446 - INFO - root - Chunk: {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, Content: became a phenomenon not because of the PC itself but because of the breadth of things people did 
+with them. PCs are a platform for others to build on top of. The internet changed the world not 
+bec
+2025-06-11 03:42:39,446 - INFO - root - Chunk: {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, Content: [Source: Topic 3 lecture HCI.pdf] 3. Current Technological Trends
+Augmented Reality
+AR overlays digital elements on the real world using sensors like GPS to track location and direction. 
+Populariz
+2025-06-11 03:42:39,446 - INFO - root - Chunk: {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, Content: [Source: Topic 4 lecture HCI.pdf] Topic 4: Design Principles
+[SECTION: 1. Learnability]
+1. Learnability
+[SECTION: 1. Learnability]
+Learnability principles are concerned with interactive system featu
+2025-06-11 03:42:39,446 - INFO - root - Chunk: {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, Content: [SECTION: 1. Learnability]
+The appearance of an object provides familiarity with its behaviour. Effective use of appearance in 
+[SECTION: 1. Learnability]
+an interactive system design can improve the
+2025-06-11 03:42:39,446 - INFO - root - Chunk: {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, Content: [Source: Topic 4 lecture HCI.pdf] 2. Flexibility
+Flexibility in interactive design extends the way a user and the system exchange information. By 
+applying flexibility principles to an interactive s
+2025-06-11 03:42:39,446 - INFO - root - Flexibility chunk: {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, Content: [Source: Topic 4 lecture HCI.pdf] 2. Flexibility
+Flexibility in interactive design extends the way a user and the system exchange information. By 
+applying flexibility principles to an interactive s
+2025-06-11 03:42:39,446 - INFO - root - Chunk: {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, Content: [Source: Topic 4 lecture HCI.pdf] 3. Robustness
+The robustness of an interface design can be measured in terms of the following four principles. 
+These principles aim to support users to achieve the
+2025-06-11 03:42:39,446 - INFO - root - Chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '1. Adaptive interfaces'}, Content: [Source: Topic 5 lecture HCI.pdf]  Topic 5: Adaptive and Personalized interfaces
+[SECTION: 1. Adaptive interfaces]
+1. Adaptive interfaces
+[SECTION: 1. Adaptive interfaces]
+An Adaptive User Interface
+2025-06-11 03:42:39,446 - INFO - root - Flexibility chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '1. Adaptive interfaces'}, Content: [Source: Topic 5 lecture HCI.pdf]  Topic 5: Adaptive and Personalized interfaces
+[SECTION: 1. Adaptive interfaces]
+1. Adaptive interfaces
+[SECTION: 1. Adaptive interfaces]
+An Adaptive User Interface
+2025-06-11 03:42:39,446 - INFO - root - Chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '1. Adaptive interfaces'}, Content: [SECTION: 1. Adaptive interfaces]
+the size of the buttons on their browser, or change the look of the buttons altogether. Instead of using 
+[SECTION: 1. Adaptive interfaces]
+a ring tone on a mobile p
+2025-06-11 03:42:39,446 - INFO - root - Flexibility chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '1. Adaptive interfaces'}, Content: [SECTION: 1. Adaptive interfaces]
+the size of the buttons on their browser, or change the look of the buttons altogether. Instead of using 
+[SECTION: 1. Adaptive interfaces]
+a ring tone on a mobile p
+2025-06-11 03:42:39,446 - INFO - root - Chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '1. Left / Right hand dominant users'}, Content: [Source: Topic 5 lecture HCI.pdf] 2. Discussion about Personalized user interface
+At a time of Human Centered Design determining how we interact with multiple arenas in our lives, 
+there is one sign
+2025-06-11 03:42:39,446 - INFO - root - Chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '2. Motor Differences'}, Content: [SECTION: 1. Left / Right hand dominant users]
+that for a right hander, the ‘Yes’ button appears closer, and the decision making time (or fixation to 
+[SECTION: 1. Left / Right hand dominant users]
+a
+2025-06-11 03:42:39,446 - INFO - root - Chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '2. Motor Differences'}, Content: [Source: Topic 5 lecture HCI.pdf]
+2025-06-11 03:42:39,446 - INFO - root - Chunk: {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, Content: [Source: Topic 6 lecture HCI.pdf]  Topic 6: Psychology in Design
+Key principles
+The intersection of psychology and design is extensive. There’s an endless list of principles 
+that occupy this space
+2025-06-11 03:42:39,446 - INFO - root - Chunk: {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, Content: Cognitive load refers to the mental processing power being used by our working memory. 
+[SECTION: 1. HICK’S LAW]
+Our brains are similar to computer processors in that we have limited processing power
+2025-06-11 03:42:39,446 - INFO - root - Chunk: {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, Content: [Source: Topic 6 lecture HCI.pdf] 2. MILLER’S LAW
+Another key principle is Miller’s Law, which predicts that the average person can only keep 
+7 (± 2) items in their working memory. It originates fr
+2025-06-11 03:42:39,446 - INFO - root - Chunk: {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, Content: [Source: Topic 6 lecture HCI.pdf] 3. JAKOB’S LAW
+The last principle we’ll look at is Jakob’s Law (short for Jakob’s Law of Internet User 
+Experience), which states that users spend most of their tim
+2025-06-11 03:42:39,446 - INFO - root - Chunk: {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 3, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, Content: [Source: Topic 6 lecture HCI.pdf]
+2025-06-11 03:42:39,490 - INFO - chromadb.telemetry.product.posthog - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-11 03:42:41,452 - INFO - root - Hybrid retriever initialized with balanced weights
+2025-06-11 03:42:41,477 - INFO - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-11 03:42:41,477 - INFO - werkzeug - [33mPress CTRL+C to quit[0m
+2025-06-11 03:42:41,478 - INFO - werkzeug -  * Restarting with stat
+2025-06-11 03:42:46,600 - INFO - sentence_transformers.SentenceTransformer - Use pytorch device_name: cpu
+2025-06-11 03:42:46,600 - INFO - sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L12-v2
+2025-06-11 03:42:51,405 - INFO - sentence_transformers.SentenceTransformer - Use pytorch device_name: cpu
+2025-06-11 03:42:51,405 - INFO - sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: all-MiniLM-L12-v2
+2025-06-11 03:42:53,973 - INFO - root - Embeddings and SentenceTransformer initialized
+2025-06-11 03:42:53,991 - INFO - root - Gemini 1.5 Flash model initialized
+2025-06-11 03:42:53,991 - INFO - root - Found lecture note PDF files: ['Topic 2 lecture HCI.pdf', 'Topic 3 lecture HCI.pdf', 'Topic 4 lecture HCI.pdf', 'Topic 5 lecture HCI.pdf', 'Topic 6 lecture HCI.pdf']
+2025-06-11 03:42:54,155 - INFO - root - Loaded 16 page-level documents from 5 PDFs
+2025-06-11 03:42:54,157 - INFO - root - Preprocessed doc from Topic 2 lecture HCI.pdf, Content: [Source: Topic 2 lecture HCI.pdf] Topic 2: Cultural factors in HCI design
+[SECTION: 1. Introduction]
+1. Introduction
+[SECTION: 1. Introduction]
+Designing technology that is inclusive and culturally 
+2025-06-11 03:42:54,157 - INFO - root - Preprocessed doc from Topic 2 lecture HCI.pdf, Content: [Source: Topic 2 lecture HCI.pdf] 2. Cultural Models as Design Guidelines
+Power Distance
+High power distance cultures tend to be more hierarchical, with a clear division of roles and 
+responsibilit
+2025-06-11 03:42:54,157 - INFO - root - Preprocessed doc from Topic 2 lecture HCI.pdf, Content: [Source: Topic 2 lecture HCI.pdf] 3. Research Challenges In The Real World
+When applying UX research methods for designing for cultural diversity in the real world, there are a 
+number of potential 
+2025-06-11 03:42:54,157 - INFO - root - Preprocessed doc from Topic 3 lecture HCI.pdf, Content: [Source: Topic 3 lecture HCI.pdf] Topic 3: Computer revolution and trends forecast to 2050
+[SECTION: 1. Definition of the Computer Revolution]
+1. Definition of the Computer Revolution
+[SECTION: 1. D
+2025-06-11 03:42:54,157 - INFO - root - Preprocessed doc from Topic 3 lecture HCI.pdf, Content: [Source: Topic 3 lecture HCI.pdf] 2. Importance of understanding technological evolution
+Revolution is a bigger force shaping our world now than it ever has been. Each era of the computing 
+revoluti
+2025-06-11 03:42:54,157 - INFO - root - Preprocessed doc from Topic 3 lecture HCI.pdf, Content: [Source: Topic 3 lecture HCI.pdf] 3. Current Technological Trends
+Augmented Reality
+AR overlays digital elements on the real world using sensors like GPS to track location and direction. 
+Populariz
+2025-06-11 03:42:54,157 - INFO - root - Preprocessed doc from Topic 4 lecture HCI.pdf, Content: [Source: Topic 4 lecture HCI.pdf] Topic 4: Design Principles
+[SECTION: 1. Learnability]
+1. Learnability
+[SECTION: 1. Learnability]
+Learnability principles are concerned with interactive system featu
+2025-06-11 03:42:54,157 - INFO - root - Preprocessed doc from Topic 4 lecture HCI.pdf, Content: [Source: Topic 4 lecture HCI.pdf] 2. Flexibility
+Flexibility in interactive design extends the way a user and the system exchange information. By 
+applying flexibility principles to an interactive s
+2025-06-11 03:42:54,157 - INFO - root - Preprocessed doc from Topic 4 lecture HCI.pdf, Content: [Source: Topic 4 lecture HCI.pdf] 3. Robustness
+The robustness of an interface design can be measured in terms of the following four principles. 
+These principles aim to support users to achieve the
+2025-06-11 03:42:54,157 - INFO - root - Preprocessed doc from Topic 5 lecture HCI.pdf, Content: [Source: Topic 5 lecture HCI.pdf]  Topic 5: Adaptive and Personalized interfaces
+[SECTION: 1. Adaptive interfaces]
+1. Adaptive interfaces
+[SECTION: 1. Adaptive interfaces]
+An Adaptive User Interface
+2025-06-11 03:42:54,158 - INFO - root - Preprocessed doc from Topic 5 lecture HCI.pdf, Content: [Source: Topic 5 lecture HCI.pdf] 2. Discussion about Personalized user interface
+At a time of Human Centered Design determining how we interact with multiple arenas in our lives, 
+there is one sign
+2025-06-11 03:42:54,158 - INFO - root - Preprocessed doc from Topic 5 lecture HCI.pdf, Content: [Source: Topic 5 lecture HCI.pdf] 
+
+2025-06-11 03:42:54,159 - INFO - root - Preprocessed doc from Topic 6 lecture HCI.pdf, Content: [Source: Topic 6 lecture HCI.pdf]  Topic 6: Psychology in Design
+Key principles
+The intersection of psychology and design is extensive. There’s an endless list of principles 
+that occupy this space
+2025-06-11 03:42:54,159 - INFO - root - Preprocessed doc from Topic 6 lecture HCI.pdf, Content: [Source: Topic 6 lecture HCI.pdf] 2. MILLER’S LAW
+Another key principle is Miller’s Law, which predicts that the average person can only keep 
+7 (± 2) items in their working memory. It originates fr
+2025-06-11 03:42:54,159 - INFO - root - Preprocessed doc from Topic 6 lecture HCI.pdf, Content: [Source: Topic 6 lecture HCI.pdf] 3. JAKOB’S LAW
+The last principle we’ll look at is Jakob’s Law (short for Jakob’s Law of Internet User 
+Experience), which states that users spend most of their tim
+2025-06-11 03:42:54,159 - INFO - root - Preprocessed doc from Topic 6 lecture HCI.pdf, Content: [Source: Topic 6 lecture HCI.pdf] 
+
+2025-06-11 03:42:54,442 - INFO - root - Doc 0: Assigned section '1. Introduction' to chunk from Topic 2 lecture HCI.pdf
+2025-06-11 03:42:54,442 - INFO - root - Doc 1: Assigned section '1. Introduction' to chunk from Topic 2 lecture HCI.pdf
+2025-06-11 03:42:54,442 - INFO - root - Doc 2: Assigned section '1. Introduction' to chunk from Topic 2 lecture HCI.pdf
+2025-06-11 03:42:54,442 - INFO - root - Doc 3: Assigned section '1. Introduction' to chunk from Topic 2 lecture HCI.pdf
+2025-06-11 03:42:54,442 - INFO - root - Doc 4: Assigned section '1. Definition of the Computer Revolution' to chunk from Topic 3 lecture HCI.pdf
+2025-06-11 03:42:54,442 - INFO - root - Doc 5: Assigned section '1. Definition of the Computer Revolution' to chunk from Topic 3 lecture HCI.pdf
+2025-06-11 03:42:54,442 - INFO - root - Doc 6: Assigned section '1. Definition of the Computer Revolution' to chunk from Topic 3 lecture HCI.pdf
+2025-06-11 03:42:54,442 - INFO - root - Doc 7: Assigned section '1. Definition of the Computer Revolution' to chunk from Topic 3 lecture HCI.pdf
+2025-06-11 03:42:54,442 - INFO - root - Doc 8: Assigned section '1. Learnability' to chunk from Topic 4 lecture HCI.pdf
+2025-06-11 03:42:54,443 - INFO - root - Doc 9: Assigned section '1. Learnability' to chunk from Topic 4 lecture HCI.pdf
+2025-06-11 03:42:54,443 - INFO - root - Doc 10: Assigned section '1. Learnability' to chunk from Topic 4 lecture HCI.pdf
+2025-06-11 03:42:54,443 - INFO - root - Doc 11: Assigned section '1. Learnability' to chunk from Topic 4 lecture HCI.pdf
+2025-06-11 03:42:54,443 - INFO - root - Doc 12: Assigned section '1. Adaptive interfaces' to chunk from Topic 5 lecture HCI.pdf
+2025-06-11 03:42:54,443 - INFO - root - Doc 13: Assigned section '1. Adaptive interfaces' to chunk from Topic 5 lecture HCI.pdf
+2025-06-11 03:42:54,443 - INFO - root - Doc 14: Assigned section '1. Left / Right hand dominant users' to chunk from Topic 5 lecture HCI.pdf
+2025-06-11 03:42:54,443 - INFO - root - Doc 15: Assigned section '2. Motor Differences' to chunk from Topic 5 lecture HCI.pdf
+2025-06-11 03:42:54,443 - INFO - root - Doc 16: Assigned section '2. Motor Differences' to chunk from Topic 5 lecture HCI.pdf
+2025-06-11 03:42:54,443 - INFO - root - Doc 17: Assigned section '1. HICK’S LAW' to chunk from Topic 6 lecture HCI.pdf
+2025-06-11 03:42:54,443 - INFO - root - Doc 18: Assigned section '1. HICK’S LAW' to chunk from Topic 6 lecture HCI.pdf
+2025-06-11 03:42:54,443 - INFO - root - Doc 19: Assigned section '1. HICK’S LAW' to chunk from Topic 6 lecture HCI.pdf
+2025-06-11 03:42:54,443 - INFO - root - Doc 20: Assigned section '1. HICK’S LAW' to chunk from Topic 6 lecture HCI.pdf
+2025-06-11 03:42:54,443 - INFO - root - Doc 21: Assigned section '1. HICK’S LAW' to chunk from Topic 6 lecture HCI.pdf
+2025-06-11 03:42:54,443 - INFO - root - Chunk: {'source': './resources\\Topic 2 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 2 lecture HCI.pdf', 'section': '1. Introduction'}, Content: [Source: Topic 2 lecture HCI.pdf] Topic 2: Cultural factors in HCI design
+[SECTION: 1. Introduction]
+1. Introduction
+[SECTION: 1. Introduction]
+Designing technology that is inclusive and culturally 
+2025-06-11 03:42:54,443 - INFO - root - Chunk: {'source': './resources\\Topic 2 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 2 lecture HCI.pdf', 'section': '1. Introduction'}, Content: [SECTION: 1. Introduction]
+the world, and even express emotions. Language, a key cultural element, impacts how we perceive 
+[SECTION: 1. Introduction]
+and understand information. Cultural backgrounds
+2025-06-11 03:42:54,443 - INFO - root - Chunk: {'source': './resources\\Topic 2 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 2 lecture HCI.pdf', 'section': '1. Introduction'}, Content: [Source: Topic 2 lecture HCI.pdf] 2. Cultural Models as Design Guidelines
+Power Distance
+High power distance cultures tend to be more hierarchical, with a clear division of roles and 
+responsibilit
+2025-06-11 03:42:54,443 - INFO - root - Chunk: {'source': './resources\\Topic 2 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 2 lecture HCI.pdf', 'section': '1. Introduction'}, Content: [Source: Topic 2 lecture HCI.pdf] 3. Research Challenges In The Real World
+When applying UX research methods for designing for cultural diversity in the real world, there are a 
+number of potential 
+2025-06-11 03:42:54,443 - INFO - root - Chunk: {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, Content: [Source: Topic 3 lecture HCI.pdf] Topic 3: Computer revolution and trends forecast to 2050
+[SECTION: 1. Definition of the Computer Revolution]
+1. Definition of the Computer Revolution
+[SECTION: 1. D
+2025-06-11 03:42:54,443 - INFO - root - Chunk: {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, Content: [Source: Topic 3 lecture HCI.pdf] 2. Importance of understanding technological evolution
+Revolution is a bigger force shaping our world now than it ever has been. Each era of the computing 
+revoluti
+2025-06-11 03:42:54,443 - INFO - root - Chunk: {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, Content: became a phenomenon not because of the PC itself but because of the breadth of things people did 
+with them. PCs are a platform for others to build on top of. The internet changed the world not 
+bec
+2025-06-11 03:42:54,444 - INFO - root - Chunk: {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, Content: [Source: Topic 3 lecture HCI.pdf] 3. Current Technological Trends
+Augmented Reality
+AR overlays digital elements on the real world using sensors like GPS to track location and direction. 
+Populariz
+2025-06-11 03:42:54,444 - INFO - root - Chunk: {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, Content: [Source: Topic 4 lecture HCI.pdf] Topic 4: Design Principles
+[SECTION: 1. Learnability]
+1. Learnability
+[SECTION: 1. Learnability]
+Learnability principles are concerned with interactive system featu
+2025-06-11 03:42:54,444 - INFO - root - Chunk: {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, Content: [SECTION: 1. Learnability]
+The appearance of an object provides familiarity with its behaviour. Effective use of appearance in 
+[SECTION: 1. Learnability]
+an interactive system design can improve the
+2025-06-11 03:42:54,444 - INFO - root - Chunk: {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, Content: [Source: Topic 4 lecture HCI.pdf] 2. Flexibility
+Flexibility in interactive design extends the way a user and the system exchange information. By 
+applying flexibility principles to an interactive s
+2025-06-11 03:42:54,444 - INFO - root - Flexibility chunk: {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, Content: [Source: Topic 4 lecture HCI.pdf] 2. Flexibility
+Flexibility in interactive design extends the way a user and the system exchange information. By 
+applying flexibility principles to an interactive s
+2025-06-11 03:42:54,444 - INFO - root - Chunk: {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, Content: [Source: Topic 4 lecture HCI.pdf] 3. Robustness
+The robustness of an interface design can be measured in terms of the following four principles. 
+These principles aim to support users to achieve the
+2025-06-11 03:42:54,444 - INFO - root - Chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '1. Adaptive interfaces'}, Content: [Source: Topic 5 lecture HCI.pdf]  Topic 5: Adaptive and Personalized interfaces
+[SECTION: 1. Adaptive interfaces]
+1. Adaptive interfaces
+[SECTION: 1. Adaptive interfaces]
+An Adaptive User Interface
+2025-06-11 03:42:54,444 - INFO - root - Flexibility chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '1. Adaptive interfaces'}, Content: [Source: Topic 5 lecture HCI.pdf]  Topic 5: Adaptive and Personalized interfaces
+[SECTION: 1. Adaptive interfaces]
+1. Adaptive interfaces
+[SECTION: 1. Adaptive interfaces]
+An Adaptive User Interface
+2025-06-11 03:42:54,444 - INFO - root - Chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '1. Adaptive interfaces'}, Content: [SECTION: 1. Adaptive interfaces]
+the size of the buttons on their browser, or change the look of the buttons altogether. Instead of using 
+[SECTION: 1. Adaptive interfaces]
+a ring tone on a mobile p
+2025-06-11 03:42:54,444 - INFO - root - Flexibility chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '1. Adaptive interfaces'}, Content: [SECTION: 1. Adaptive interfaces]
+the size of the buttons on their browser, or change the look of the buttons altogether. Instead of using 
+[SECTION: 1. Adaptive interfaces]
+a ring tone on a mobile p
+2025-06-11 03:42:54,444 - INFO - root - Chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '1. Left / Right hand dominant users'}, Content: [Source: Topic 5 lecture HCI.pdf] 2. Discussion about Personalized user interface
+At a time of Human Centered Design determining how we interact with multiple arenas in our lives, 
+there is one sign
+2025-06-11 03:42:54,444 - INFO - root - Chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '2. Motor Differences'}, Content: [SECTION: 1. Left / Right hand dominant users]
+that for a right hander, the ‘Yes’ button appears closer, and the decision making time (or fixation to 
+[SECTION: 1. Left / Right hand dominant users]
+a
+2025-06-11 03:42:54,444 - INFO - root - Chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '2. Motor Differences'}, Content: [Source: Topic 5 lecture HCI.pdf]
+2025-06-11 03:42:54,444 - INFO - root - Chunk: {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, Content: [Source: Topic 6 lecture HCI.pdf]  Topic 6: Psychology in Design
+Key principles
+The intersection of psychology and design is extensive. There’s an endless list of principles 
+that occupy this space
+2025-06-11 03:42:54,444 - INFO - root - Chunk: {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, Content: Cognitive load refers to the mental processing power being used by our working memory. 
+[SECTION: 1. HICK’S LAW]
+Our brains are similar to computer processors in that we have limited processing power
+2025-06-11 03:42:54,444 - INFO - root - Chunk: {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, Content: [Source: Topic 6 lecture HCI.pdf] 2. MILLER’S LAW
+Another key principle is Miller’s Law, which predicts that the average person can only keep 
+7 (± 2) items in their working memory. It originates fr
+2025-06-11 03:42:54,444 - INFO - root - Chunk: {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, Content: [Source: Topic 6 lecture HCI.pdf] 3. JAKOB’S LAW
+The last principle we’ll look at is Jakob’s Law (short for Jakob’s Law of Internet User 
+Experience), which states that users spend most of their tim
+2025-06-11 03:42:54,444 - INFO - root - Chunk: {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 3, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, Content: [Source: Topic 6 lecture HCI.pdf]
+2025-06-11 03:42:54,477 - INFO - chromadb.telemetry.product.posthog - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-11 03:42:55,876 - INFO - root - Hybrid retriever initialized with balanced weights
+2025-06-11 03:42:55,886 - WARNING - werkzeug -  * Debugger is active!
+2025-06-11 03:42:55,890 - INFO - werkzeug -  * Debugger PIN: 741-656-962
+2025-06-11 03:46:18,690 - INFO - root - Processing query: what is your purpose
+2025-06-11 03:46:18,690 - INFO - root - Query classified as: non-hci
+2025-06-11 03:46:18,690 - INFO - root - Prompt sent to Gemini: 
+            You are Niko, a friendly AI assistant for the HANU HCI course. Answer the following question clearly, concisely, and in Markdown format:
+            - Start with a one-sentence summary.
+ ...
+2025-06-11 03:46:19,570 - INFO - root - Raw Gemini response: My purpose is to help students in the HANU HCI course.
+
+* I provide assistance with questions.
+* I offer clear and concise answers.
+* I aim to make learning easier and more efficient.
+...
+2025-06-11 03:46:19,570 - INFO - root - Non-HCI response prepared in 0.88 seconds: My purpose is to help students in the HANU HCI course.
+
+* I provide assistance with questions.
+* I o
+2025-06-11 03:46:19,572 - INFO - werkzeug - 127.0.0.1 - - [11/Jun/2025 03:46:19] "POST /api/chat HTTP/1.1" 200 -
+2025-06-11 03:47:25,382 - INFO - root - Processing query: what is the learnability in design principle
+2025-06-11 03:47:25,382 - INFO - root - Query classified as: hci-related
+2025-06-11 03:47:25,438 - INFO - root - Hybrid retrieved 8 docs: [{'page': 0, 'source': './resources\\Topic 4 lecture HCI.pdf', 'source_file': 'Topic 4 lecture HCI.pdf'}, {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}]
+2025-06-11 03:47:25,439 - INFO - root - Aggregated 5 chunks for query: what is the learnability in design principle, top section: [Source: Topic 4 lecture HCI.pdf] Topic 4: Design Principles
+1. Learnability
+Learnability principl
+2025-06-11 03:47:25,545 - INFO - root - Reranking scores: [('[Source: Topic 4 lecture HCI.pdf] Topic 4: Design ', 0.788453996181488)]
+2025-06-11 03:47:25,545 - INFO - root - Prompt sent to Gemini: 
+You are Niko, an expert HCI course tutor. Using only the provided lecture note context, answer the question with a clear, concise, and professional explanation, focusing on Human-Computer Interaction...
+2025-06-11 03:47:27,348 - INFO - root - Raw Gemini response: Learnability in design focuses on creating interactive systems that are easy for novice users to learn and allow for steady skill progression.
+
+*   **Simplicity:**  _Simple interfaces are easier to us...
+2025-06-11 03:47:27,348 - INFO - root - Response prepared in 1.97 seconds: Learnability in design focuses on creating interactive systems that are easy for novice users to lea
+2025-06-11 03:47:27,348 - INFO - werkzeug - 127.0.0.1 - - [11/Jun/2025 03:47:27] "POST /api/chat HTTP/1.1" 200 -
+2025-06-11 03:48:28,384 - INFO - root - Processing query: what is the predictability
+2025-06-11 03:48:28,384 - INFO - root - Query classified as: hci-related
+2025-06-11 03:48:28,410 - INFO - root - Hybrid retrieved 9 docs: [{'page': 0, 'section': '1. Learnability', 'source': './resources\\Topic 4 lecture HCI.pdf', 'source_file': 'Topic 4 lecture HCI.pdf'}, {'page': 2, 'section': '1. Learnability', 'source': './resources\\Topic 4 lecture HCI.pdf', 'source_file': 'Topic 4 lecture HCI.pdf'}, {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '2. Motor Differences'}, {'page': 0, 'section': '1. Adaptive interfaces', 'source': './resources\\Topic 5 lecture HCI.pdf', 'source_file': 'Topic 5 lecture HCI.pdf'}, {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}]
+2025-06-11 03:48:28,410 - INFO - root - Aggregated 5 chunks for query: what is the predictability, top section: [Source: Topic 4 lecture HCI.pdf] Topic 4: Design Principles
+[SECTION: 1. Learnability]
+1. Learnabi
+2025-06-11 03:48:28,490 - INFO - root - Reranking scores: [('[Source: Topic 4 lecture HCI.pdf] Topic 4: Design ', 0.2974437177181244)]
+2025-06-11 03:48:28,490 - INFO - root - Prompt sent to Gemini: 
+You are Niko, an expert HCI course tutor. Using only the provided lecture note context, answer the question with a clear, concise, and professional explanation, focusing on Human-Computer Interaction...
+2025-06-11 03:48:30,663 - INFO - root - Raw Gemini response: Predictability in HCI design ensures users can anticipate the outcome of their interactions.
+
+*   **Predictability** is about users' ability to determine the results of current or future interactions ...
+2025-06-11 03:48:30,663 - INFO - root - Response prepared in 2.28 seconds: Predictability in HCI design ensures users can anticipate the outcome of their interactions.
+
+*   **
+2025-06-11 03:48:30,663 - INFO - werkzeug - 127.0.0.1 - - [11/Jun/2025 03:48:30] "POST /api/chat HTTP/1.1" 200 -
+2025-06-11 03:49:25,327 - INFO - root - Processing query: what is the application of design pattern in bussineess
+2025-06-11 03:49:25,327 - INFO - root - Query classified as: non-hci
+2025-06-11 03:49:25,327 - INFO - root - Prompt sent to Gemini: 
+            You are Niko, a friendly AI assistant for the HANU HCI course. Answer the following question clearly, concisely, and in Markdown format:
+            - Start with a one-sentence summary.
+ ...
+2025-06-11 03:49:26,770 - INFO - root - Raw Gemini response: Design patterns in business provide reusable solutions to common organizational and software development problems, improving efficiency and consistency.
+
+* **Streamlining processes:**  Patterns offer ...
+2025-06-11 03:49:26,770 - INFO - root - Non-HCI response prepared in 1.44 seconds: Design patterns in business provide reusable solutions to common organizational and software develop
+2025-06-11 03:49:26,770 - INFO - werkzeug - 127.0.0.1 - - [11/Jun/2025 03:49:26] "POST /api/chat HTTP/1.1" 200 -
+2025-06-11 03:53:40,211 - INFO - root - Processing query: how can you apply design  principle to help on advancing through business idea?
+2025-06-11 03:53:40,211 - INFO - root - Query classified as: non-hci
+2025-06-11 03:53:40,211 - INFO - root - Prompt sent to Gemini: 
+            You are Niko, a friendly AI assistant for the HANU HCI course. Answer the following question clearly, concisely, and in Markdown format:
+            - Start with a one-sentence summary.
+ ...
+2025-06-11 03:53:43,297 - INFO - root - Raw Gemini response: Applying design principles can significantly improve the chances of a business idea succeeding by ensuring it's user-friendly, solves a real problem, and is appealing to the target market.
+
+* **User-c...
+2025-06-11 03:53:43,297 - INFO - root - Non-HCI response prepared in 3.09 seconds: Applying design principles can significantly improve the chances of a business idea succeeding by en
+2025-06-11 03:53:43,297 - INFO - werkzeug - 127.0.0.1 - - [11/Jun/2025 03:53:43] "POST /api/chat HTTP/1.1" 200 -
+2025-06-11 03:57:24,532 - INFO - root - Processing query: how can you apply the design principle to help on advancing through business idea
+2025-06-11 03:57:24,532 - INFO - root - Query classified as: hci-related
+2025-06-11 03:57:24,570 - INFO - root - Hybrid retrieved 8 docs: [{'page': 0, 'source': './resources\\Topic 6 lecture HCI.pdf', 'source_file': 'Topic 6 lecture HCI.pdf'}, {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, {'source': './resources\\Topic 2 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 2 lecture HCI.pdf', 'section': '1. Introduction'}, {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}]
+2025-06-11 03:57:24,570 - INFO - root - Aggregated 5 chunks for query: how can you apply the design principle to help on advancing through business idea, top section: [Source: Topic 6 lecture HCI.pdf]  Topic 6: Psychology in Design
+Key principles
+The intersection o
+2025-06-11 03:57:24,660 - INFO - root - Reranking scores: [('[Source: Topic 6 lecture HCI.pdf]  Topic 6: Psycho', 0.5165765285491943)]
+2025-06-11 03:57:24,660 - INFO - root - No relevant keywords in context for query: how can you apply the design principle to help on advancing through business idea
+2025-06-11 03:57:24,661 - INFO - werkzeug - 127.0.0.1 - - [11/Jun/2025 03:57:24] "POST /api/chat HTTP/1.1" 200 -
+2025-06-11 04:10:01,658 - INFO - sentence_transformers.SentenceTransformer - Use pytorch device_name: cpu
+2025-06-11 04:10:01,658 - INFO - sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L12-v2
+2025-06-11 04:10:06,019 - INFO - sentence_transformers.SentenceTransformer - Use pytorch device_name: cpu
+2025-06-11 04:10:06,019 - INFO - sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: all-MiniLM-L12-v2
+2025-06-11 04:10:08,744 - INFO - root - Embeddings and SentenceTransformer initialized
+2025-06-11 04:10:08,760 - INFO - root - Gemini 1.5 Flash model initialized
+2025-06-11 04:10:08,760 - INFO - root - Found lecture note PDF files: ['Topic 2 lecture HCI.pdf', 'Topic 3 lecture HCI.pdf', 'Topic 4 lecture HCI.pdf', 'Topic 5 lecture HCI.pdf', 'Topic 6 lecture HCI.pdf']
+2025-06-11 04:10:08,915 - INFO - root - Loaded 16 page-level documents from 5 PDFs
+2025-06-11 04:10:08,916 - INFO - root - Preprocessed doc from Topic 2 lecture HCI.pdf, Content: [Source: Topic 2 lecture HCI.pdf] Topic 2: Cultural factors in HCI design
+[SECTION: 1. Introduction]
+1. Introduction
+[SECTION: 1. Introduction]
+Designing technology that is inclusive and culturally 
+2025-06-11 04:10:08,916 - INFO - root - Preprocessed doc from Topic 2 lecture HCI.pdf, Content: [Source: Topic 2 lecture HCI.pdf] 2. Cultural Models as Design Guidelines
+Power Distance
+High power distance cultures tend to be more hierarchical, with a clear division of roles and 
+responsibilit
+2025-06-11 04:10:08,916 - INFO - root - Preprocessed doc from Topic 2 lecture HCI.pdf, Content: [Source: Topic 2 lecture HCI.pdf] 3. Research Challenges In The Real World
+When applying UX research methods for designing for cultural diversity in the real world, there are a 
+number of potential 
+2025-06-11 04:10:08,916 - INFO - root - Preprocessed doc from Topic 3 lecture HCI.pdf, Content: [Source: Topic 3 lecture HCI.pdf] Topic 3: Computer revolution and trends forecast to 2050
+[SECTION: 1. Definition of the Computer Revolution]
+1. Definition of the Computer Revolution
+[SECTION: 1. D
+2025-06-11 04:10:08,916 - INFO - root - Preprocessed doc from Topic 3 lecture HCI.pdf, Content: [Source: Topic 3 lecture HCI.pdf] 2. Importance of understanding technological evolution
+Revolution is a bigger force shaping our world now than it ever has been. Each era of the computing 
+revoluti
+2025-06-11 04:10:08,916 - INFO - root - Preprocessed doc from Topic 3 lecture HCI.pdf, Content: [Source: Topic 3 lecture HCI.pdf] 3. Current Technological Trends
+Augmented Reality
+AR overlays digital elements on the real world using sensors like GPS to track location and direction. 
+Populariz
+2025-06-11 04:10:08,916 - INFO - root - Preprocessed doc from Topic 4 lecture HCI.pdf, Content: [Source: Topic 4 lecture HCI.pdf] Topic 4: Design Principles
+[SECTION: 1. Learnability]
+1. Learnability
+[SECTION: 1. Learnability]
+Learnability principles are concerned with interactive system featu
+2025-06-11 04:10:08,916 - INFO - root - Preprocessed doc from Topic 4 lecture HCI.pdf, Content: [Source: Topic 4 lecture HCI.pdf] 2. Flexibility
+Flexibility in interactive design extends the way a user and the system exchange information. By 
+applying flexibility principles to an interactive s
+2025-06-11 04:10:08,916 - INFO - root - Preprocessed doc from Topic 4 lecture HCI.pdf, Content: [Source: Topic 4 lecture HCI.pdf] 3. Robustness
+The robustness of an interface design can be measured in terms of the following four principles. 
+These principles aim to support users to achieve the
+2025-06-11 04:10:08,916 - INFO - root - Preprocessed doc from Topic 5 lecture HCI.pdf, Content: [Source: Topic 5 lecture HCI.pdf]  Topic 5: Adaptive and Personalized interfaces
+[SECTION: 1. Adaptive interfaces]
+1. Adaptive interfaces
+[SECTION: 1. Adaptive interfaces]
+An Adaptive User Interface
+2025-06-11 04:10:08,916 - INFO - root - Preprocessed doc from Topic 5 lecture HCI.pdf, Content: [Source: Topic 5 lecture HCI.pdf] 2. Discussion about Personalized user interface
+At a time of Human Centered Design determining how we interact with multiple arenas in our lives, 
+there is one sign
+2025-06-11 04:10:08,916 - INFO - root - Preprocessed doc from Topic 5 lecture HCI.pdf, Content: [Source: Topic 5 lecture HCI.pdf] 
+
+2025-06-11 04:10:08,916 - INFO - root - Preprocessed doc from Topic 6 lecture HCI.pdf, Content: [Source: Topic 6 lecture HCI.pdf]  Topic 6: Psychology in Design
+Key principles
+The intersection of psychology and design is extensive. There’s an endless list of principles 
+that occupy this space
+2025-06-11 04:10:08,917 - INFO - root - Preprocessed doc from Topic 6 lecture HCI.pdf, Content: [Source: Topic 6 lecture HCI.pdf] 2. MILLER’S LAW
+Another key principle is Miller’s Law, which predicts that the average person can only keep 
+7 (± 2) items in their working memory. It originates fr
+2025-06-11 04:10:08,917 - INFO - root - Preprocessed doc from Topic 6 lecture HCI.pdf, Content: [Source: Topic 6 lecture HCI.pdf] 3. JAKOB’S LAW
+The last principle we’ll look at is Jakob’s Law (short for Jakob’s Law of Internet User 
+Experience), which states that users spend most of their tim
+2025-06-11 04:10:08,917 - INFO - root - Preprocessed doc from Topic 6 lecture HCI.pdf, Content: [Source: Topic 6 lecture HCI.pdf] 
+
+2025-06-11 04:10:09,153 - INFO - root - Doc 0: Assigned section '1. Introduction' to chunk from Topic 2 lecture HCI.pdf
+2025-06-11 04:10:09,153 - INFO - root - Doc 1: Assigned section '1. Introduction' to chunk from Topic 2 lecture HCI.pdf
+2025-06-11 04:10:09,154 - INFO - root - Doc 2: Assigned section '1. Introduction' to chunk from Topic 2 lecture HCI.pdf
+2025-06-11 04:10:09,154 - INFO - root - Doc 3: Assigned section '1. Introduction' to chunk from Topic 2 lecture HCI.pdf
+2025-06-11 04:10:09,154 - INFO - root - Doc 4: Assigned section '1. Definition of the Computer Revolution' to chunk from Topic 3 lecture HCI.pdf
+2025-06-11 04:10:09,154 - INFO - root - Doc 5: Assigned section '1. Definition of the Computer Revolution' to chunk from Topic 3 lecture HCI.pdf
+2025-06-11 04:10:09,154 - INFO - root - Doc 6: Assigned section '1. Definition of the Computer Revolution' to chunk from Topic 3 lecture HCI.pdf
+2025-06-11 04:10:09,154 - INFO - root - Doc 7: Assigned section '1. Definition of the Computer Revolution' to chunk from Topic 3 lecture HCI.pdf
+2025-06-11 04:10:09,154 - INFO - root - Doc 8: Assigned section '1. Learnability' to chunk from Topic 4 lecture HCI.pdf
+2025-06-11 04:10:09,154 - INFO - root - Doc 9: Assigned section '1. Learnability' to chunk from Topic 4 lecture HCI.pdf
+2025-06-11 04:10:09,154 - INFO - root - Doc 10: Assigned section '1. Learnability' to chunk from Topic 4 lecture HCI.pdf
+2025-06-11 04:10:09,154 - INFO - root - Doc 11: Assigned section '1. Learnability' to chunk from Topic 4 lecture HCI.pdf
+2025-06-11 04:10:09,154 - INFO - root - Doc 12: Assigned section '1. Adaptive interfaces' to chunk from Topic 5 lecture HCI.pdf
+2025-06-11 04:10:09,154 - INFO - root - Doc 13: Assigned section '1. Adaptive interfaces' to chunk from Topic 5 lecture HCI.pdf
+2025-06-11 04:10:09,154 - INFO - root - Doc 14: Assigned section '1. Left / Right hand dominant users' to chunk from Topic 5 lecture HCI.pdf
+2025-06-11 04:10:09,154 - INFO - root - Doc 15: Assigned section '2. Motor Differences' to chunk from Topic 5 lecture HCI.pdf
+2025-06-11 04:10:09,154 - INFO - root - Doc 16: Assigned section '2. Motor Differences' to chunk from Topic 5 lecture HCI.pdf
+2025-06-11 04:10:09,154 - INFO - root - Doc 17: Assigned section '1. HICK’S LAW' to chunk from Topic 6 lecture HCI.pdf
+2025-06-11 04:10:09,154 - INFO - root - Doc 18: Assigned section '1. HICK’S LAW' to chunk from Topic 6 lecture HCI.pdf
+2025-06-11 04:10:09,154 - INFO - root - Doc 19: Assigned section '1. HICK’S LAW' to chunk from Topic 6 lecture HCI.pdf
+2025-06-11 04:10:09,154 - INFO - root - Doc 20: Assigned section '1. HICK’S LAW' to chunk from Topic 6 lecture HCI.pdf
+2025-06-11 04:10:09,154 - INFO - root - Doc 21: Assigned section '1. HICK’S LAW' to chunk from Topic 6 lecture HCI.pdf
+2025-06-11 04:10:09,154 - INFO - root - Chunk: {'source': './resources\\Topic 2 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 2 lecture HCI.pdf', 'section': '1. Introduction'}, Content: [Source: Topic 2 lecture HCI.pdf] Topic 2: Cultural factors in HCI design
+[SECTION: 1. Introduction]
+1. Introduction
+[SECTION: 1. Introduction]
+Designing technology that is inclusive and culturally 
+2025-06-11 04:10:09,154 - INFO - root - Chunk: {'source': './resources\\Topic 2 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 2 lecture HCI.pdf', 'section': '1. Introduction'}, Content: [SECTION: 1. Introduction]
+the world, and even express emotions. Language, a key cultural element, impacts how we perceive 
+[SECTION: 1. Introduction]
+and understand information. Cultural backgrounds
+2025-06-11 04:10:09,155 - INFO - root - Chunk: {'source': './resources\\Topic 2 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 2 lecture HCI.pdf', 'section': '1. Introduction'}, Content: [Source: Topic 2 lecture HCI.pdf] 2. Cultural Models as Design Guidelines
+Power Distance
+High power distance cultures tend to be more hierarchical, with a clear division of roles and 
+responsibilit
+2025-06-11 04:10:09,155 - INFO - root - Chunk: {'source': './resources\\Topic 2 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 2 lecture HCI.pdf', 'section': '1. Introduction'}, Content: [Source: Topic 2 lecture HCI.pdf] 3. Research Challenges In The Real World
+When applying UX research methods for designing for cultural diversity in the real world, there are a 
+number of potential 
+2025-06-11 04:10:09,155 - INFO - root - Chunk: {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, Content: [Source: Topic 3 lecture HCI.pdf] Topic 3: Computer revolution and trends forecast to 2050
+[SECTION: 1. Definition of the Computer Revolution]
+1. Definition of the Computer Revolution
+[SECTION: 1. D
+2025-06-11 04:10:09,155 - INFO - root - Chunk: {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, Content: [Source: Topic 3 lecture HCI.pdf] 2. Importance of understanding technological evolution
+Revolution is a bigger force shaping our world now than it ever has been. Each era of the computing 
+revoluti
+2025-06-11 04:10:09,155 - INFO - root - Chunk: {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, Content: became a phenomenon not because of the PC itself but because of the breadth of things people did 
+with them. PCs are a platform for others to build on top of. The internet changed the world not 
+bec
+2025-06-11 04:10:09,155 - INFO - root - Chunk: {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, Content: [Source: Topic 3 lecture HCI.pdf] 3. Current Technological Trends
+Augmented Reality
+AR overlays digital elements on the real world using sensors like GPS to track location and direction. 
+Populariz
+2025-06-11 04:10:09,155 - INFO - root - Chunk: {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, Content: [Source: Topic 4 lecture HCI.pdf] Topic 4: Design Principles
+[SECTION: 1. Learnability]
+1. Learnability
+[SECTION: 1. Learnability]
+Learnability principles are concerned with interactive system featu
+2025-06-11 04:10:09,155 - INFO - root - Chunk: {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, Content: [SECTION: 1. Learnability]
+The appearance of an object provides familiarity with its behaviour. Effective use of appearance in 
+[SECTION: 1. Learnability]
+an interactive system design can improve the
+2025-06-11 04:10:09,155 - INFO - root - Chunk: {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, Content: [Source: Topic 4 lecture HCI.pdf] 2. Flexibility
+Flexibility in interactive design extends the way a user and the system exchange information. By 
+applying flexibility principles to an interactive s
+2025-06-11 04:10:09,155 - INFO - root - Flexibility chunk: {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, Content: [Source: Topic 4 lecture HCI.pdf] 2. Flexibility
+Flexibility in interactive design extends the way a user and the system exchange information. By 
+applying flexibility principles to an interactive s
+2025-06-11 04:10:09,155 - INFO - root - Chunk: {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, Content: [Source: Topic 4 lecture HCI.pdf] 3. Robustness
+The robustness of an interface design can be measured in terms of the following four principles. 
+These principles aim to support users to achieve the
+2025-06-11 04:10:09,155 - INFO - root - Chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '1. Adaptive interfaces'}, Content: [Source: Topic 5 lecture HCI.pdf]  Topic 5: Adaptive and Personalized interfaces
+[SECTION: 1. Adaptive interfaces]
+1. Adaptive interfaces
+[SECTION: 1. Adaptive interfaces]
+An Adaptive User Interface
+2025-06-11 04:10:09,155 - INFO - root - Flexibility chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '1. Adaptive interfaces'}, Content: [Source: Topic 5 lecture HCI.pdf]  Topic 5: Adaptive and Personalized interfaces
+[SECTION: 1. Adaptive interfaces]
+1. Adaptive interfaces
+[SECTION: 1. Adaptive interfaces]
+An Adaptive User Interface
+2025-06-11 04:10:09,155 - INFO - root - Chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '1. Adaptive interfaces'}, Content: [SECTION: 1. Adaptive interfaces]
+the size of the buttons on their browser, or change the look of the buttons altogether. Instead of using 
+[SECTION: 1. Adaptive interfaces]
+a ring tone on a mobile p
+2025-06-11 04:10:09,155 - INFO - root - Flexibility chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '1. Adaptive interfaces'}, Content: [SECTION: 1. Adaptive interfaces]
+the size of the buttons on their browser, or change the look of the buttons altogether. Instead of using 
+[SECTION: 1. Adaptive interfaces]
+a ring tone on a mobile p
+2025-06-11 04:10:09,155 - INFO - root - Chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '1. Left / Right hand dominant users'}, Content: [Source: Topic 5 lecture HCI.pdf] 2. Discussion about Personalized user interface
+At a time of Human Centered Design determining how we interact with multiple arenas in our lives, 
+there is one sign
+2025-06-11 04:10:09,155 - INFO - root - Chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '2. Motor Differences'}, Content: [SECTION: 1. Left / Right hand dominant users]
+that for a right hander, the ‘Yes’ button appears closer, and the decision making time (or fixation to 
+[SECTION: 1. Left / Right hand dominant users]
+a
+2025-06-11 04:10:09,155 - INFO - root - Chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '2. Motor Differences'}, Content: [Source: Topic 5 lecture HCI.pdf]
+2025-06-11 04:10:09,155 - INFO - root - Chunk: {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, Content: [Source: Topic 6 lecture HCI.pdf]  Topic 6: Psychology in Design
+Key principles
+The intersection of psychology and design is extensive. There’s an endless list of principles 
+that occupy this space
+2025-06-11 04:10:09,155 - INFO - root - Chunk: {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, Content: Cognitive load refers to the mental processing power being used by our working memory. 
+[SECTION: 1. HICK’S LAW]
+Our brains are similar to computer processors in that we have limited processing power
+2025-06-11 04:10:09,155 - INFO - root - Chunk: {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, Content: [Source: Topic 6 lecture HCI.pdf] 2. MILLER’S LAW
+Another key principle is Miller’s Law, which predicts that the average person can only keep 
+7 (± 2) items in their working memory. It originates fr
+2025-06-11 04:10:09,155 - INFO - root - Chunk: {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, Content: [Source: Topic 6 lecture HCI.pdf] 3. JAKOB’S LAW
+The last principle we’ll look at is Jakob’s Law (short for Jakob’s Law of Internet User 
+Experience), which states that users spend most of their tim
+2025-06-11 04:10:09,155 - INFO - root - Chunk: {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 3, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, Content: [Source: Topic 6 lecture HCI.pdf]
+2025-06-11 04:10:09,195 - INFO - chromadb.telemetry.product.posthog - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-11 04:10:10,408 - INFO - root - Hybrid retriever initialized with balanced weights
+2025-06-11 04:10:10,420 - INFO - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-11 04:10:10,420 - INFO - werkzeug - [33mPress CTRL+C to quit[0m
+2025-06-11 04:10:10,422 - INFO - werkzeug -  * Restarting with stat
+2025-06-11 04:10:15,353 - INFO - sentence_transformers.SentenceTransformer - Use pytorch device_name: cpu
+2025-06-11 04:10:15,353 - INFO - sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L12-v2
+2025-06-11 04:10:19,023 - INFO - sentence_transformers.SentenceTransformer - Use pytorch device_name: cpu
+2025-06-11 04:10:19,023 - INFO - sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: all-MiniLM-L12-v2
+2025-06-11 04:10:21,557 - INFO - root - Embeddings and SentenceTransformer initialized
+2025-06-11 04:10:21,571 - INFO - root - Gemini 1.5 Flash model initialized
+2025-06-11 04:10:21,571 - INFO - root - Found lecture note PDF files: ['Topic 2 lecture HCI.pdf', 'Topic 3 lecture HCI.pdf', 'Topic 4 lecture HCI.pdf', 'Topic 5 lecture HCI.pdf', 'Topic 6 lecture HCI.pdf']
+2025-06-11 04:10:21,707 - INFO - root - Loaded 16 page-level documents from 5 PDFs
+2025-06-11 04:10:21,709 - INFO - root - Preprocessed doc from Topic 2 lecture HCI.pdf, Content: [Source: Topic 2 lecture HCI.pdf] Topic 2: Cultural factors in HCI design
+[SECTION: 1. Introduction]
+1. Introduction
+[SECTION: 1. Introduction]
+Designing technology that is inclusive and culturally 
+2025-06-11 04:10:21,709 - INFO - root - Preprocessed doc from Topic 2 lecture HCI.pdf, Content: [Source: Topic 2 lecture HCI.pdf] 2. Cultural Models as Design Guidelines
+Power Distance
+High power distance cultures tend to be more hierarchical, with a clear division of roles and 
+responsibilit
+2025-06-11 04:10:21,709 - INFO - root - Preprocessed doc from Topic 2 lecture HCI.pdf, Content: [Source: Topic 2 lecture HCI.pdf] 3. Research Challenges In The Real World
+When applying UX research methods for designing for cultural diversity in the real world, there are a 
+number of potential 
+2025-06-11 04:10:21,709 - INFO - root - Preprocessed doc from Topic 3 lecture HCI.pdf, Content: [Source: Topic 3 lecture HCI.pdf] Topic 3: Computer revolution and trends forecast to 2050
+[SECTION: 1. Definition of the Computer Revolution]
+1. Definition of the Computer Revolution
+[SECTION: 1. D
+2025-06-11 04:10:21,709 - INFO - root - Preprocessed doc from Topic 3 lecture HCI.pdf, Content: [Source: Topic 3 lecture HCI.pdf] 2. Importance of understanding technological evolution
+Revolution is a bigger force shaping our world now than it ever has been. Each era of the computing 
+revoluti
+2025-06-11 04:10:21,709 - INFO - root - Preprocessed doc from Topic 3 lecture HCI.pdf, Content: [Source: Topic 3 lecture HCI.pdf] 3. Current Technological Trends
+Augmented Reality
+AR overlays digital elements on the real world using sensors like GPS to track location and direction. 
+Populariz
+2025-06-11 04:10:21,710 - INFO - root - Preprocessed doc from Topic 4 lecture HCI.pdf, Content: [Source: Topic 4 lecture HCI.pdf] Topic 4: Design Principles
+[SECTION: 1. Learnability]
+1. Learnability
+[SECTION: 1. Learnability]
+Learnability principles are concerned with interactive system featu
+2025-06-11 04:10:21,710 - INFO - root - Preprocessed doc from Topic 4 lecture HCI.pdf, Content: [Source: Topic 4 lecture HCI.pdf] 2. Flexibility
+Flexibility in interactive design extends the way a user and the system exchange information. By 
+applying flexibility principles to an interactive s
+2025-06-11 04:10:21,710 - INFO - root - Preprocessed doc from Topic 4 lecture HCI.pdf, Content: [Source: Topic 4 lecture HCI.pdf] 3. Robustness
+The robustness of an interface design can be measured in terms of the following four principles. 
+These principles aim to support users to achieve the
+2025-06-11 04:10:21,710 - INFO - root - Preprocessed doc from Topic 5 lecture HCI.pdf, Content: [Source: Topic 5 lecture HCI.pdf]  Topic 5: Adaptive and Personalized interfaces
+[SECTION: 1. Adaptive interfaces]
+1. Adaptive interfaces
+[SECTION: 1. Adaptive interfaces]
+An Adaptive User Interface
+2025-06-11 04:10:21,710 - INFO - root - Preprocessed doc from Topic 5 lecture HCI.pdf, Content: [Source: Topic 5 lecture HCI.pdf] 2. Discussion about Personalized user interface
+At a time of Human Centered Design determining how we interact with multiple arenas in our lives, 
+there is one sign
+2025-06-11 04:10:21,710 - INFO - root - Preprocessed doc from Topic 5 lecture HCI.pdf, Content: [Source: Topic 5 lecture HCI.pdf] 
+
+2025-06-11 04:10:21,710 - INFO - root - Preprocessed doc from Topic 6 lecture HCI.pdf, Content: [Source: Topic 6 lecture HCI.pdf]  Topic 6: Psychology in Design
+Key principles
+The intersection of psychology and design is extensive. There’s an endless list of principles 
+that occupy this space
+2025-06-11 04:10:21,710 - INFO - root - Preprocessed doc from Topic 6 lecture HCI.pdf, Content: [Source: Topic 6 lecture HCI.pdf] 2. MILLER’S LAW
+Another key principle is Miller’s Law, which predicts that the average person can only keep 
+7 (± 2) items in their working memory. It originates fr
+2025-06-11 04:10:21,710 - INFO - root - Preprocessed doc from Topic 6 lecture HCI.pdf, Content: [Source: Topic 6 lecture HCI.pdf] 3. JAKOB’S LAW
+The last principle we’ll look at is Jakob’s Law (short for Jakob’s Law of Internet User 
+Experience), which states that users spend most of their tim
+2025-06-11 04:10:21,710 - INFO - root - Preprocessed doc from Topic 6 lecture HCI.pdf, Content: [Source: Topic 6 lecture HCI.pdf] 
+
+2025-06-11 04:10:21,936 - INFO - root - Doc 0: Assigned section '1. Introduction' to chunk from Topic 2 lecture HCI.pdf
+2025-06-11 04:10:21,936 - INFO - root - Doc 1: Assigned section '1. Introduction' to chunk from Topic 2 lecture HCI.pdf
+2025-06-11 04:10:21,936 - INFO - root - Doc 2: Assigned section '1. Introduction' to chunk from Topic 2 lecture HCI.pdf
+2025-06-11 04:10:21,936 - INFO - root - Doc 3: Assigned section '1. Introduction' to chunk from Topic 2 lecture HCI.pdf
+2025-06-11 04:10:21,936 - INFO - root - Doc 4: Assigned section '1. Definition of the Computer Revolution' to chunk from Topic 3 lecture HCI.pdf
+2025-06-11 04:10:21,936 - INFO - root - Doc 5: Assigned section '1. Definition of the Computer Revolution' to chunk from Topic 3 lecture HCI.pdf
+2025-06-11 04:10:21,936 - INFO - root - Doc 6: Assigned section '1. Definition of the Computer Revolution' to chunk from Topic 3 lecture HCI.pdf
+2025-06-11 04:10:21,936 - INFO - root - Doc 7: Assigned section '1. Definition of the Computer Revolution' to chunk from Topic 3 lecture HCI.pdf
+2025-06-11 04:10:21,936 - INFO - root - Doc 8: Assigned section '1. Learnability' to chunk from Topic 4 lecture HCI.pdf
+2025-06-11 04:10:21,936 - INFO - root - Doc 9: Assigned section '1. Learnability' to chunk from Topic 4 lecture HCI.pdf
+2025-06-11 04:10:21,936 - INFO - root - Doc 10: Assigned section '1. Learnability' to chunk from Topic 4 lecture HCI.pdf
+2025-06-11 04:10:21,936 - INFO - root - Doc 11: Assigned section '1. Learnability' to chunk from Topic 4 lecture HCI.pdf
+2025-06-11 04:10:21,936 - INFO - root - Doc 12: Assigned section '1. Adaptive interfaces' to chunk from Topic 5 lecture HCI.pdf
+2025-06-11 04:10:21,936 - INFO - root - Doc 13: Assigned section '1. Adaptive interfaces' to chunk from Topic 5 lecture HCI.pdf
+2025-06-11 04:10:21,936 - INFO - root - Doc 14: Assigned section '1. Left / Right hand dominant users' to chunk from Topic 5 lecture HCI.pdf
+2025-06-11 04:10:21,936 - INFO - root - Doc 15: Assigned section '2. Motor Differences' to chunk from Topic 5 lecture HCI.pdf
+2025-06-11 04:10:21,936 - INFO - root - Doc 16: Assigned section '2. Motor Differences' to chunk from Topic 5 lecture HCI.pdf
+2025-06-11 04:10:21,936 - INFO - root - Doc 17: Assigned section '1. HICK’S LAW' to chunk from Topic 6 lecture HCI.pdf
+2025-06-11 04:10:21,936 - INFO - root - Doc 18: Assigned section '1. HICK’S LAW' to chunk from Topic 6 lecture HCI.pdf
+2025-06-11 04:10:21,937 - INFO - root - Doc 19: Assigned section '1. HICK’S LAW' to chunk from Topic 6 lecture HCI.pdf
+2025-06-11 04:10:21,937 - INFO - root - Doc 20: Assigned section '1. HICK’S LAW' to chunk from Topic 6 lecture HCI.pdf
+2025-06-11 04:10:21,937 - INFO - root - Doc 21: Assigned section '1. HICK’S LAW' to chunk from Topic 6 lecture HCI.pdf
+2025-06-11 04:10:21,937 - INFO - root - Chunk: {'source': './resources\\Topic 2 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 2 lecture HCI.pdf', 'section': '1. Introduction'}, Content: [Source: Topic 2 lecture HCI.pdf] Topic 2: Cultural factors in HCI design
+[SECTION: 1. Introduction]
+1. Introduction
+[SECTION: 1. Introduction]
+Designing technology that is inclusive and culturally 
+2025-06-11 04:10:21,937 - INFO - root - Chunk: {'source': './resources\\Topic 2 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 2 lecture HCI.pdf', 'section': '1. Introduction'}, Content: [SECTION: 1. Introduction]
+the world, and even express emotions. Language, a key cultural element, impacts how we perceive 
+[SECTION: 1. Introduction]
+and understand information. Cultural backgrounds
+2025-06-11 04:10:21,937 - INFO - root - Chunk: {'source': './resources\\Topic 2 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 2 lecture HCI.pdf', 'section': '1. Introduction'}, Content: [Source: Topic 2 lecture HCI.pdf] 2. Cultural Models as Design Guidelines
+Power Distance
+High power distance cultures tend to be more hierarchical, with a clear division of roles and 
+responsibilit
+2025-06-11 04:10:21,937 - INFO - root - Chunk: {'source': './resources\\Topic 2 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 2 lecture HCI.pdf', 'section': '1. Introduction'}, Content: [Source: Topic 2 lecture HCI.pdf] 3. Research Challenges In The Real World
+When applying UX research methods for designing for cultural diversity in the real world, there are a 
+number of potential 
+2025-06-11 04:10:21,937 - INFO - root - Chunk: {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, Content: [Source: Topic 3 lecture HCI.pdf] Topic 3: Computer revolution and trends forecast to 2050
+[SECTION: 1. Definition of the Computer Revolution]
+1. Definition of the Computer Revolution
+[SECTION: 1. D
+2025-06-11 04:10:21,937 - INFO - root - Chunk: {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, Content: [Source: Topic 3 lecture HCI.pdf] 2. Importance of understanding technological evolution
+Revolution is a bigger force shaping our world now than it ever has been. Each era of the computing 
+revoluti
+2025-06-11 04:10:21,937 - INFO - root - Chunk: {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, Content: became a phenomenon not because of the PC itself but because of the breadth of things people did 
+with them. PCs are a platform for others to build on top of. The internet changed the world not 
+bec
+2025-06-11 04:10:21,937 - INFO - root - Chunk: {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, Content: [Source: Topic 3 lecture HCI.pdf] 3. Current Technological Trends
+Augmented Reality
+AR overlays digital elements on the real world using sensors like GPS to track location and direction. 
+Populariz
+2025-06-11 04:10:21,937 - INFO - root - Chunk: {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, Content: [Source: Topic 4 lecture HCI.pdf] Topic 4: Design Principles
+[SECTION: 1. Learnability]
+1. Learnability
+[SECTION: 1. Learnability]
+Learnability principles are concerned with interactive system featu
+2025-06-11 04:10:21,937 - INFO - root - Chunk: {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, Content: [SECTION: 1. Learnability]
+The appearance of an object provides familiarity with its behaviour. Effective use of appearance in 
+[SECTION: 1. Learnability]
+an interactive system design can improve the
+2025-06-11 04:10:21,937 - INFO - root - Chunk: {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, Content: [Source: Topic 4 lecture HCI.pdf] 2. Flexibility
+Flexibility in interactive design extends the way a user and the system exchange information. By 
+applying flexibility principles to an interactive s
+2025-06-11 04:10:21,937 - INFO - root - Flexibility chunk: {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, Content: [Source: Topic 4 lecture HCI.pdf] 2. Flexibility
+Flexibility in interactive design extends the way a user and the system exchange information. By 
+applying flexibility principles to an interactive s
+2025-06-11 04:10:21,937 - INFO - root - Chunk: {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, Content: [Source: Topic 4 lecture HCI.pdf] 3. Robustness
+The robustness of an interface design can be measured in terms of the following four principles. 
+These principles aim to support users to achieve the
+2025-06-11 04:10:21,937 - INFO - root - Chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '1. Adaptive interfaces'}, Content: [Source: Topic 5 lecture HCI.pdf]  Topic 5: Adaptive and Personalized interfaces
+[SECTION: 1. Adaptive interfaces]
+1. Adaptive interfaces
+[SECTION: 1. Adaptive interfaces]
+An Adaptive User Interface
+2025-06-11 04:10:21,937 - INFO - root - Flexibility chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '1. Adaptive interfaces'}, Content: [Source: Topic 5 lecture HCI.pdf]  Topic 5: Adaptive and Personalized interfaces
+[SECTION: 1. Adaptive interfaces]
+1. Adaptive interfaces
+[SECTION: 1. Adaptive interfaces]
+An Adaptive User Interface
+2025-06-11 04:10:21,937 - INFO - root - Chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '1. Adaptive interfaces'}, Content: [SECTION: 1. Adaptive interfaces]
+the size of the buttons on their browser, or change the look of the buttons altogether. Instead of using 
+[SECTION: 1. Adaptive interfaces]
+a ring tone on a mobile p
+2025-06-11 04:10:21,937 - INFO - root - Flexibility chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '1. Adaptive interfaces'}, Content: [SECTION: 1. Adaptive interfaces]
+the size of the buttons on their browser, or change the look of the buttons altogether. Instead of using 
+[SECTION: 1. Adaptive interfaces]
+a ring tone on a mobile p
+2025-06-11 04:10:21,937 - INFO - root - Chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '1. Left / Right hand dominant users'}, Content: [Source: Topic 5 lecture HCI.pdf] 2. Discussion about Personalized user interface
+At a time of Human Centered Design determining how we interact with multiple arenas in our lives, 
+there is one sign
+2025-06-11 04:10:21,937 - INFO - root - Chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '2. Motor Differences'}, Content: [SECTION: 1. Left / Right hand dominant users]
+that for a right hander, the ‘Yes’ button appears closer, and the decision making time (or fixation to 
+[SECTION: 1. Left / Right hand dominant users]
+a
+2025-06-11 04:10:21,937 - INFO - root - Chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '2. Motor Differences'}, Content: [Source: Topic 5 lecture HCI.pdf]
+2025-06-11 04:10:21,937 - INFO - root - Chunk: {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, Content: [Source: Topic 6 lecture HCI.pdf]  Topic 6: Psychology in Design
+Key principles
+The intersection of psychology and design is extensive. There’s an endless list of principles 
+that occupy this space
+2025-06-11 04:10:21,937 - INFO - root - Chunk: {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, Content: Cognitive load refers to the mental processing power being used by our working memory. 
+[SECTION: 1. HICK’S LAW]
+Our brains are similar to computer processors in that we have limited processing power
+2025-06-11 04:10:21,938 - INFO - root - Chunk: {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, Content: [Source: Topic 6 lecture HCI.pdf] 2. MILLER’S LAW
+Another key principle is Miller’s Law, which predicts that the average person can only keep 
+7 (± 2) items in their working memory. It originates fr
+2025-06-11 04:10:21,938 - INFO - root - Chunk: {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, Content: [Source: Topic 6 lecture HCI.pdf] 3. JAKOB’S LAW
+The last principle we’ll look at is Jakob’s Law (short for Jakob’s Law of Internet User 
+Experience), which states that users spend most of their tim
+2025-06-11 04:10:21,938 - INFO - root - Chunk: {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 3, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, Content: [Source: Topic 6 lecture HCI.pdf]
+2025-06-11 04:10:21,966 - INFO - chromadb.telemetry.product.posthog - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-11 04:10:23,052 - INFO - root - Hybrid retriever initialized with balanced weights
+2025-06-11 04:10:23,061 - WARNING - werkzeug -  * Debugger is active!
+2025-06-11 04:10:23,064 - INFO - werkzeug -  * Debugger PIN: 741-656-962
+2025-06-11 04:19:02,314 - INFO - sentence_transformers.SentenceTransformer - Use pytorch device_name: cpu
+2025-06-11 04:19:02,316 - INFO - sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L12-v2
+2025-06-11 04:19:07,285 - INFO - sentence_transformers.SentenceTransformer - Use pytorch device_name: cpu
+2025-06-11 04:19:07,285 - INFO - sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: all-MiniLM-L12-v2
+2025-06-11 04:19:10,024 - INFO - root - Embeddings and SentenceTransformer initialized
+2025-06-11 04:19:10,066 - INFO - root - Gemini 1.5 Flash model initialized
+2025-06-11 04:19:10,066 - INFO - root - Found lecture note PDF files: ['Topic 2 lecture HCI.pdf', 'Topic 3 lecture HCI.pdf', 'Topic 4 lecture HCI.pdf', 'Topic 5 lecture HCI.pdf', 'Topic 6 lecture HCI.pdf']
+2025-06-11 04:19:10,238 - INFO - root - Loaded 16 page-level documents from 5 PDFs
+2025-06-11 04:19:10,239 - INFO - root - Preprocessed doc from Topic 2 lecture HCI.pdf, Content: [Source: Topic 2 lecture HCI.pdf] Topic 2: Cultural factors in HCI design
+[SECTION: 1. Introduction]
+1. Introduction
+[SECTION: 1. Introduction]
+Designing technology that is inclusive and culturally 
+2025-06-11 04:19:10,239 - INFO - root - Preprocessed doc from Topic 2 lecture HCI.pdf, Content: [Source: Topic 2 lecture HCI.pdf] 2. Cultural Models as Design Guidelines
+Power Distance
+High power distance cultures tend to be more hierarchical, with a clear division of roles and 
+responsibilit
+2025-06-11 04:19:10,240 - INFO - root - Preprocessed doc from Topic 2 lecture HCI.pdf, Content: [Source: Topic 2 lecture HCI.pdf] 3. Research Challenges In The Real World
+When applying UX research methods for designing for cultural diversity in the real world, there are a 
+number of potential 
+2025-06-11 04:19:10,240 - INFO - root - Preprocessed doc from Topic 3 lecture HCI.pdf, Content: [Source: Topic 3 lecture HCI.pdf] Topic 3: Computer revolution and trends forecast to 2050
+[SECTION: 1. Definition of the Computer Revolution]
+1. Definition of the Computer Revolution
+[SECTION: 1. D
+2025-06-11 04:19:10,240 - INFO - root - Preprocessed doc from Topic 3 lecture HCI.pdf, Content: [Source: Topic 3 lecture HCI.pdf] 2. Importance of understanding technological evolution
+Revolution is a bigger force shaping our world now than it ever has been. Each era of the computing 
+revoluti
+2025-06-11 04:19:10,240 - INFO - root - Preprocessed doc from Topic 3 lecture HCI.pdf, Content: [Source: Topic 3 lecture HCI.pdf] 3. Current Technological Trends
+Augmented Reality
+AR overlays digital elements on the real world using sensors like GPS to track location and direction. 
+Populariz
+2025-06-11 04:19:10,240 - INFO - root - Preprocessed doc from Topic 4 lecture HCI.pdf, Content: [Source: Topic 4 lecture HCI.pdf] Topic 4: Design Principles
+[SECTION: 1. Learnability]
+1. Learnability
+[SECTION: 1. Learnability]
+Learnability principles are concerned with interactive system featu
+2025-06-11 04:19:10,240 - INFO - root - Preprocessed doc from Topic 4 lecture HCI.pdf, Content: [Source: Topic 4 lecture HCI.pdf] 2. Flexibility
+Flexibility in interactive design extends the way a user and the system exchange information. By 
+applying flexibility principles to an interactive s
+2025-06-11 04:19:10,240 - INFO - root - Preprocessed doc from Topic 4 lecture HCI.pdf, Content: [Source: Topic 4 lecture HCI.pdf] 3. Robustness
+The robustness of an interface design can be measured in terms of the following four principles. 
+These principles aim to support users to achieve the
+2025-06-11 04:19:10,240 - INFO - root - Preprocessed doc from Topic 5 lecture HCI.pdf, Content: [Source: Topic 5 lecture HCI.pdf]  Topic 5: Adaptive and Personalized interfaces
+[SECTION: 1. Adaptive interfaces]
+1. Adaptive interfaces
+[SECTION: 1. Adaptive interfaces]
+An Adaptive User Interface
+2025-06-11 04:19:10,240 - INFO - root - Preprocessed doc from Topic 5 lecture HCI.pdf, Content: [Source: Topic 5 lecture HCI.pdf] 2. Discussion about Personalized user interface
+At a time of Human Centered Design determining how we interact with multiple arenas in our lives, 
+there is one sign
+2025-06-11 04:19:10,240 - INFO - root - Preprocessed doc from Topic 5 lecture HCI.pdf, Content: [Source: Topic 5 lecture HCI.pdf] 
+
+2025-06-11 04:19:10,240 - INFO - root - Preprocessed doc from Topic 6 lecture HCI.pdf, Content: [Source: Topic 6 lecture HCI.pdf]  Topic 6: Psychology in Design
+Key principles
+The intersection of psychology and design is extensive. There’s an endless list of principles 
+that occupy this space
+2025-06-11 04:19:10,240 - INFO - root - Preprocessed doc from Topic 6 lecture HCI.pdf, Content: [Source: Topic 6 lecture HCI.pdf] 2. MILLER’S LAW
+Another key principle is Miller’s Law, which predicts that the average person can only keep 
+7 (± 2) items in their working memory. It originates fr
+2025-06-11 04:19:10,240 - INFO - root - Preprocessed doc from Topic 6 lecture HCI.pdf, Content: [Source: Topic 6 lecture HCI.pdf] 3. JAKOB’S LAW
+The last principle we’ll look at is Jakob’s Law (short for Jakob’s Law of Internet User 
+Experience), which states that users spend most of their tim
+2025-06-11 04:19:10,240 - INFO - root - Preprocessed doc from Topic 6 lecture HCI.pdf, Content: [Source: Topic 6 lecture HCI.pdf] 
+
+2025-06-11 04:19:10,491 - INFO - root - Doc 0: Assigned section '1. Introduction' to chunk from Topic 2 lecture HCI.pdf
+2025-06-11 04:19:10,492 - INFO - root - Doc 1: Assigned section '1. Introduction' to chunk from Topic 2 lecture HCI.pdf
+2025-06-11 04:19:10,492 - INFO - root - Doc 2: Assigned section '1. Introduction' to chunk from Topic 2 lecture HCI.pdf
+2025-06-11 04:19:10,492 - INFO - root - Doc 3: Assigned section '1. Introduction' to chunk from Topic 2 lecture HCI.pdf
+2025-06-11 04:19:10,492 - INFO - root - Doc 4: Assigned section '1. Definition of the Computer Revolution' to chunk from Topic 3 lecture HCI.pdf
+2025-06-11 04:19:10,492 - INFO - root - Doc 5: Assigned section '1. Definition of the Computer Revolution' to chunk from Topic 3 lecture HCI.pdf
+2025-06-11 04:19:10,492 - INFO - root - Doc 6: Assigned section '1. Definition of the Computer Revolution' to chunk from Topic 3 lecture HCI.pdf
+2025-06-11 04:19:10,492 - INFO - root - Doc 7: Assigned section '1. Definition of the Computer Revolution' to chunk from Topic 3 lecture HCI.pdf
+2025-06-11 04:19:10,492 - INFO - root - Doc 8: Assigned section '1. Learnability' to chunk from Topic 4 lecture HCI.pdf
+2025-06-11 04:19:10,492 - INFO - root - Doc 9: Assigned section '1. Learnability' to chunk from Topic 4 lecture HCI.pdf
+2025-06-11 04:19:10,492 - INFO - root - Doc 10: Assigned section '1. Learnability' to chunk from Topic 4 lecture HCI.pdf
+2025-06-11 04:19:10,492 - INFO - root - Doc 11: Assigned section '1. Learnability' to chunk from Topic 4 lecture HCI.pdf
+2025-06-11 04:19:10,492 - INFO - root - Doc 12: Assigned section '1. Adaptive interfaces' to chunk from Topic 5 lecture HCI.pdf
+2025-06-11 04:19:10,492 - INFO - root - Doc 13: Assigned section '1. Adaptive interfaces' to chunk from Topic 5 lecture HCI.pdf
+2025-06-11 04:19:10,492 - INFO - root - Doc 14: Assigned section '1. Left / Right hand dominant users' to chunk from Topic 5 lecture HCI.pdf
+2025-06-11 04:19:10,492 - INFO - root - Doc 15: Assigned section '2. Motor Differences' to chunk from Topic 5 lecture HCI.pdf
+2025-06-11 04:19:10,492 - INFO - root - Doc 16: Assigned section '2. Motor Differences' to chunk from Topic 5 lecture HCI.pdf
+2025-06-11 04:19:10,492 - INFO - root - Doc 17: Assigned section '1. HICK’S LAW' to chunk from Topic 6 lecture HCI.pdf
+2025-06-11 04:19:10,492 - INFO - root - Doc 18: Assigned section '1. HICK’S LAW' to chunk from Topic 6 lecture HCI.pdf
+2025-06-11 04:19:10,492 - INFO - root - Doc 19: Assigned section '1. HICK’S LAW' to chunk from Topic 6 lecture HCI.pdf
+2025-06-11 04:19:10,492 - INFO - root - Doc 20: Assigned section '1. HICK’S LAW' to chunk from Topic 6 lecture HCI.pdf
+2025-06-11 04:19:10,492 - INFO - root - Doc 21: Assigned section '1. HICK’S LAW' to chunk from Topic 6 lecture HCI.pdf
+2025-06-11 04:19:10,492 - INFO - root - Chunk: {'source': './resources\\Topic 2 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 2 lecture HCI.pdf', 'section': '1. Introduction'}, Content: [Source: Topic 2 lecture HCI.pdf] Topic 2: Cultural factors in HCI design
+[SECTION: 1. Introduction]
+1. Introduction
+[SECTION: 1. Introduction]
+Designing technology that is inclusive and culturally 
+2025-06-11 04:19:10,493 - INFO - root - Chunk: {'source': './resources\\Topic 2 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 2 lecture HCI.pdf', 'section': '1. Introduction'}, Content: [SECTION: 1. Introduction]
+the world, and even express emotions. Language, a key cultural element, impacts how we perceive 
+[SECTION: 1. Introduction]
+and understand information. Cultural backgrounds
+2025-06-11 04:19:10,493 - INFO - root - Chunk: {'source': './resources\\Topic 2 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 2 lecture HCI.pdf', 'section': '1. Introduction'}, Content: [Source: Topic 2 lecture HCI.pdf] 2. Cultural Models as Design Guidelines
+Power Distance
+High power distance cultures tend to be more hierarchical, with a clear division of roles and 
+responsibilit
+2025-06-11 04:19:10,493 - INFO - root - Chunk: {'source': './resources\\Topic 2 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 2 lecture HCI.pdf', 'section': '1. Introduction'}, Content: [Source: Topic 2 lecture HCI.pdf] 3. Research Challenges In The Real World
+When applying UX research methods for designing for cultural diversity in the real world, there are a 
+number of potential 
+2025-06-11 04:19:10,493 - INFO - root - Chunk: {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, Content: [Source: Topic 3 lecture HCI.pdf] Topic 3: Computer revolution and trends forecast to 2050
+[SECTION: 1. Definition of the Computer Revolution]
+1. Definition of the Computer Revolution
+[SECTION: 1. D
+2025-06-11 04:19:10,493 - INFO - root - Chunk: {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, Content: [Source: Topic 3 lecture HCI.pdf] 2. Importance of understanding technological evolution
+Revolution is a bigger force shaping our world now than it ever has been. Each era of the computing 
+revoluti
+2025-06-11 04:19:10,493 - INFO - root - Chunk: {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, Content: became a phenomenon not because of the PC itself but because of the breadth of things people did 
+with them. PCs are a platform for others to build on top of. The internet changed the world not 
+bec
+2025-06-11 04:19:10,493 - INFO - root - Chunk: {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, Content: [Source: Topic 3 lecture HCI.pdf] 3. Current Technological Trends
+Augmented Reality
+AR overlays digital elements on the real world using sensors like GPS to track location and direction. 
+Populariz
+2025-06-11 04:19:10,493 - INFO - root - Chunk: {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, Content: [Source: Topic 4 lecture HCI.pdf] Topic 4: Design Principles
+[SECTION: 1. Learnability]
+1. Learnability
+[SECTION: 1. Learnability]
+Learnability principles are concerned with interactive system featu
+2025-06-11 04:19:10,493 - INFO - root - Chunk: {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, Content: [SECTION: 1. Learnability]
+The appearance of an object provides familiarity with its behaviour. Effective use of appearance in 
+[SECTION: 1. Learnability]
+an interactive system design can improve the
+2025-06-11 04:19:10,493 - INFO - root - Chunk: {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, Content: [Source: Topic 4 lecture HCI.pdf] 2. Flexibility
+Flexibility in interactive design extends the way a user and the system exchange information. By 
+applying flexibility principles to an interactive s
+2025-06-11 04:19:10,493 - INFO - root - Flexibility chunk: {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, Content: [Source: Topic 4 lecture HCI.pdf] 2. Flexibility
+Flexibility in interactive design extends the way a user and the system exchange information. By 
+applying flexibility principles to an interactive s
+2025-06-11 04:19:10,493 - INFO - root - Chunk: {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, Content: [Source: Topic 4 lecture HCI.pdf] 3. Robustness
+The robustness of an interface design can be measured in terms of the following four principles. 
+These principles aim to support users to achieve the
+2025-06-11 04:19:10,493 - INFO - root - Chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '1. Adaptive interfaces'}, Content: [Source: Topic 5 lecture HCI.pdf]  Topic 5: Adaptive and Personalized interfaces
+[SECTION: 1. Adaptive interfaces]
+1. Adaptive interfaces
+[SECTION: 1. Adaptive interfaces]
+An Adaptive User Interface
+2025-06-11 04:19:10,493 - INFO - root - Flexibility chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '1. Adaptive interfaces'}, Content: [Source: Topic 5 lecture HCI.pdf]  Topic 5: Adaptive and Personalized interfaces
+[SECTION: 1. Adaptive interfaces]
+1. Adaptive interfaces
+[SECTION: 1. Adaptive interfaces]
+An Adaptive User Interface
+2025-06-11 04:19:10,493 - INFO - root - Chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '1. Adaptive interfaces'}, Content: [SECTION: 1. Adaptive interfaces]
+the size of the buttons on their browser, or change the look of the buttons altogether. Instead of using 
+[SECTION: 1. Adaptive interfaces]
+a ring tone on a mobile p
+2025-06-11 04:19:10,493 - INFO - root - Flexibility chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '1. Adaptive interfaces'}, Content: [SECTION: 1. Adaptive interfaces]
+the size of the buttons on their browser, or change the look of the buttons altogether. Instead of using 
+[SECTION: 1. Adaptive interfaces]
+a ring tone on a mobile p
+2025-06-11 04:19:10,493 - INFO - root - Chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '1. Left / Right hand dominant users'}, Content: [Source: Topic 5 lecture HCI.pdf] 2. Discussion about Personalized user interface
+At a time of Human Centered Design determining how we interact with multiple arenas in our lives, 
+there is one sign
+2025-06-11 04:19:10,493 - INFO - root - Chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '2. Motor Differences'}, Content: [SECTION: 1. Left / Right hand dominant users]
+that for a right hander, the ‘Yes’ button appears closer, and the decision making time (or fixation to 
+[SECTION: 1. Left / Right hand dominant users]
+a
+2025-06-11 04:19:10,493 - INFO - root - Chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '2. Motor Differences'}, Content: [Source: Topic 5 lecture HCI.pdf]
+2025-06-11 04:19:10,493 - INFO - root - Chunk: {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, Content: [Source: Topic 6 lecture HCI.pdf]  Topic 6: Psychology in Design
+Key principles
+The intersection of psychology and design is extensive. There’s an endless list of principles 
+that occupy this space
+2025-06-11 04:19:10,493 - INFO - root - Chunk: {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, Content: Cognitive load refers to the mental processing power being used by our working memory. 
+[SECTION: 1. HICK’S LAW]
+Our brains are similar to computer processors in that we have limited processing power
+2025-06-11 04:19:10,493 - INFO - root - Chunk: {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, Content: [Source: Topic 6 lecture HCI.pdf] 2. MILLER’S LAW
+Another key principle is Miller’s Law, which predicts that the average person can only keep 
+7 (± 2) items in their working memory. It originates fr
+2025-06-11 04:19:10,493 - INFO - root - Chunk: {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, Content: [Source: Topic 6 lecture HCI.pdf] 3. JAKOB’S LAW
+The last principle we’ll look at is Jakob’s Law (short for Jakob’s Law of Internet User 
+Experience), which states that users spend most of their tim
+2025-06-11 04:19:10,493 - INFO - root - Chunk: {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 3, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, Content: [Source: Topic 6 lecture HCI.pdf]
+2025-06-11 04:19:10,532 - INFO - chromadb.telemetry.product.posthog - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-11 04:19:12,081 - INFO - root - Hybrid retriever initialized with balanced weights
+2025-06-11 04:19:12,094 - INFO - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-11 04:19:12,094 - INFO - werkzeug - [33mPress CTRL+C to quit[0m
+2025-06-11 04:19:12,095 - INFO - werkzeug -  * Restarting with stat
+2025-06-11 04:19:18,917 - INFO - sentence_transformers.SentenceTransformer - Use pytorch device_name: cpu
+2025-06-11 04:19:18,917 - INFO - sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L12-v2
+2025-06-11 04:19:23,644 - INFO - sentence_transformers.SentenceTransformer - Use pytorch device_name: cpu
+2025-06-11 04:19:23,644 - INFO - sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: all-MiniLM-L12-v2
+2025-06-11 04:19:26,170 - INFO - root - Embeddings and SentenceTransformer initialized
+2025-06-11 04:19:26,185 - INFO - root - Gemini 1.5 Flash model initialized
+2025-06-11 04:19:26,186 - INFO - root - Found lecture note PDF files: ['Topic 2 lecture HCI.pdf', 'Topic 3 lecture HCI.pdf', 'Topic 4 lecture HCI.pdf', 'Topic 5 lecture HCI.pdf', 'Topic 6 lecture HCI.pdf']
+2025-06-11 04:19:26,428 - INFO - root - Loaded 16 page-level documents from 5 PDFs
+2025-06-11 04:19:26,429 - INFO - root - Preprocessed doc from Topic 2 lecture HCI.pdf, Content: [Source: Topic 2 lecture HCI.pdf] Topic 2: Cultural factors in HCI design
+[SECTION: 1. Introduction]
+1. Introduction
+[SECTION: 1. Introduction]
+Designing technology that is inclusive and culturally 
+2025-06-11 04:19:26,429 - INFO - root - Preprocessed doc from Topic 2 lecture HCI.pdf, Content: [Source: Topic 2 lecture HCI.pdf] 2. Cultural Models as Design Guidelines
+Power Distance
+High power distance cultures tend to be more hierarchical, with a clear division of roles and 
+responsibilit
+2025-06-11 04:19:26,429 - INFO - root - Preprocessed doc from Topic 2 lecture HCI.pdf, Content: [Source: Topic 2 lecture HCI.pdf] 3. Research Challenges In The Real World
+When applying UX research methods for designing for cultural diversity in the real world, there are a 
+number of potential 
+2025-06-11 04:19:26,429 - INFO - root - Preprocessed doc from Topic 3 lecture HCI.pdf, Content: [Source: Topic 3 lecture HCI.pdf] Topic 3: Computer revolution and trends forecast to 2050
+[SECTION: 1. Definition of the Computer Revolution]
+1. Definition of the Computer Revolution
+[SECTION: 1. D
+2025-06-11 04:19:26,429 - INFO - root - Preprocessed doc from Topic 3 lecture HCI.pdf, Content: [Source: Topic 3 lecture HCI.pdf] 2. Importance of understanding technological evolution
+Revolution is a bigger force shaping our world now than it ever has been. Each era of the computing 
+revoluti
+2025-06-11 04:19:26,429 - INFO - root - Preprocessed doc from Topic 3 lecture HCI.pdf, Content: [Source: Topic 3 lecture HCI.pdf] 3. Current Technological Trends
+Augmented Reality
+AR overlays digital elements on the real world using sensors like GPS to track location and direction. 
+Populariz
+2025-06-11 04:19:26,429 - INFO - root - Preprocessed doc from Topic 4 lecture HCI.pdf, Content: [Source: Topic 4 lecture HCI.pdf] Topic 4: Design Principles
+[SECTION: 1. Learnability]
+1. Learnability
+[SECTION: 1. Learnability]
+Learnability principles are concerned with interactive system featu
+2025-06-11 04:19:26,429 - INFO - root - Preprocessed doc from Topic 4 lecture HCI.pdf, Content: [Source: Topic 4 lecture HCI.pdf] 2. Flexibility
+Flexibility in interactive design extends the way a user and the system exchange information. By 
+applying flexibility principles to an interactive s
+2025-06-11 04:19:26,429 - INFO - root - Preprocessed doc from Topic 4 lecture HCI.pdf, Content: [Source: Topic 4 lecture HCI.pdf] 3. Robustness
+The robustness of an interface design can be measured in terms of the following four principles. 
+These principles aim to support users to achieve the
+2025-06-11 04:19:26,429 - INFO - root - Preprocessed doc from Topic 5 lecture HCI.pdf, Content: [Source: Topic 5 lecture HCI.pdf]  Topic 5: Adaptive and Personalized interfaces
+[SECTION: 1. Adaptive interfaces]
+1. Adaptive interfaces
+[SECTION: 1. Adaptive interfaces]
+An Adaptive User Interface
+2025-06-11 04:19:26,430 - INFO - root - Preprocessed doc from Topic 5 lecture HCI.pdf, Content: [Source: Topic 5 lecture HCI.pdf] 2. Discussion about Personalized user interface
+At a time of Human Centered Design determining how we interact with multiple arenas in our lives, 
+there is one sign
+2025-06-11 04:19:26,430 - INFO - root - Preprocessed doc from Topic 5 lecture HCI.pdf, Content: [Source: Topic 5 lecture HCI.pdf] 
+
+2025-06-11 04:19:26,430 - INFO - root - Preprocessed doc from Topic 6 lecture HCI.pdf, Content: [Source: Topic 6 lecture HCI.pdf]  Topic 6: Psychology in Design
+Key principles
+The intersection of psychology and design is extensive. There’s an endless list of principles 
+that occupy this space
+2025-06-11 04:19:26,430 - INFO - root - Preprocessed doc from Topic 6 lecture HCI.pdf, Content: [Source: Topic 6 lecture HCI.pdf] 2. MILLER’S LAW
+Another key principle is Miller’s Law, which predicts that the average person can only keep 
+7 (± 2) items in their working memory. It originates fr
+2025-06-11 04:19:26,430 - INFO - root - Preprocessed doc from Topic 6 lecture HCI.pdf, Content: [Source: Topic 6 lecture HCI.pdf] 3. JAKOB’S LAW
+The last principle we’ll look at is Jakob’s Law (short for Jakob’s Law of Internet User 
+Experience), which states that users spend most of their tim
+2025-06-11 04:19:26,430 - INFO - root - Preprocessed doc from Topic 6 lecture HCI.pdf, Content: [Source: Topic 6 lecture HCI.pdf] 
+
+2025-06-11 04:19:26,666 - INFO - root - Doc 0: Assigned section '1. Introduction' to chunk from Topic 2 lecture HCI.pdf
+2025-06-11 04:19:26,666 - INFO - root - Doc 1: Assigned section '1. Introduction' to chunk from Topic 2 lecture HCI.pdf
+2025-06-11 04:19:26,666 - INFO - root - Doc 2: Assigned section '1. Introduction' to chunk from Topic 2 lecture HCI.pdf
+2025-06-11 04:19:26,666 - INFO - root - Doc 3: Assigned section '1. Introduction' to chunk from Topic 2 lecture HCI.pdf
+2025-06-11 04:19:26,666 - INFO - root - Doc 4: Assigned section '1. Definition of the Computer Revolution' to chunk from Topic 3 lecture HCI.pdf
+2025-06-11 04:19:26,666 - INFO - root - Doc 5: Assigned section '1. Definition of the Computer Revolution' to chunk from Topic 3 lecture HCI.pdf
+2025-06-11 04:19:26,666 - INFO - root - Doc 6: Assigned section '1. Definition of the Computer Revolution' to chunk from Topic 3 lecture HCI.pdf
+2025-06-11 04:19:26,666 - INFO - root - Doc 7: Assigned section '1. Definition of the Computer Revolution' to chunk from Topic 3 lecture HCI.pdf
+2025-06-11 04:19:26,666 - INFO - root - Doc 8: Assigned section '1. Learnability' to chunk from Topic 4 lecture HCI.pdf
+2025-06-11 04:19:26,666 - INFO - root - Doc 9: Assigned section '1. Learnability' to chunk from Topic 4 lecture HCI.pdf
+2025-06-11 04:19:26,666 - INFO - root - Doc 10: Assigned section '1. Learnability' to chunk from Topic 4 lecture HCI.pdf
+2025-06-11 04:19:26,667 - INFO - root - Doc 11: Assigned section '1. Learnability' to chunk from Topic 4 lecture HCI.pdf
+2025-06-11 04:19:26,667 - INFO - root - Doc 12: Assigned section '1. Adaptive interfaces' to chunk from Topic 5 lecture HCI.pdf
+2025-06-11 04:19:26,667 - INFO - root - Doc 13: Assigned section '1. Adaptive interfaces' to chunk from Topic 5 lecture HCI.pdf
+2025-06-11 04:19:26,667 - INFO - root - Doc 14: Assigned section '1. Left / Right hand dominant users' to chunk from Topic 5 lecture HCI.pdf
+2025-06-11 04:19:26,667 - INFO - root - Doc 15: Assigned section '2. Motor Differences' to chunk from Topic 5 lecture HCI.pdf
+2025-06-11 04:19:26,667 - INFO - root - Doc 16: Assigned section '2. Motor Differences' to chunk from Topic 5 lecture HCI.pdf
+2025-06-11 04:19:26,667 - INFO - root - Doc 17: Assigned section '1. HICK’S LAW' to chunk from Topic 6 lecture HCI.pdf
+2025-06-11 04:19:26,667 - INFO - root - Doc 18: Assigned section '1. HICK’S LAW' to chunk from Topic 6 lecture HCI.pdf
+2025-06-11 04:19:26,667 - INFO - root - Doc 19: Assigned section '1. HICK’S LAW' to chunk from Topic 6 lecture HCI.pdf
+2025-06-11 04:19:26,667 - INFO - root - Doc 20: Assigned section '1. HICK’S LAW' to chunk from Topic 6 lecture HCI.pdf
+2025-06-11 04:19:26,667 - INFO - root - Doc 21: Assigned section '1. HICK’S LAW' to chunk from Topic 6 lecture HCI.pdf
+2025-06-11 04:19:26,667 - INFO - root - Chunk: {'source': './resources\\Topic 2 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 2 lecture HCI.pdf', 'section': '1. Introduction'}, Content: [Source: Topic 2 lecture HCI.pdf] Topic 2: Cultural factors in HCI design
+[SECTION: 1. Introduction]
+1. Introduction
+[SECTION: 1. Introduction]
+Designing technology that is inclusive and culturally 
+2025-06-11 04:19:26,667 - INFO - root - Chunk: {'source': './resources\\Topic 2 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 2 lecture HCI.pdf', 'section': '1. Introduction'}, Content: [SECTION: 1. Introduction]
+the world, and even express emotions. Language, a key cultural element, impacts how we perceive 
+[SECTION: 1. Introduction]
+and understand information. Cultural backgrounds
+2025-06-11 04:19:26,667 - INFO - root - Chunk: {'source': './resources\\Topic 2 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 2 lecture HCI.pdf', 'section': '1. Introduction'}, Content: [Source: Topic 2 lecture HCI.pdf] 2. Cultural Models as Design Guidelines
+Power Distance
+High power distance cultures tend to be more hierarchical, with a clear division of roles and 
+responsibilit
+2025-06-11 04:19:26,667 - INFO - root - Chunk: {'source': './resources\\Topic 2 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 2 lecture HCI.pdf', 'section': '1. Introduction'}, Content: [Source: Topic 2 lecture HCI.pdf] 3. Research Challenges In The Real World
+When applying UX research methods for designing for cultural diversity in the real world, there are a 
+number of potential 
+2025-06-11 04:19:26,667 - INFO - root - Chunk: {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, Content: [Source: Topic 3 lecture HCI.pdf] Topic 3: Computer revolution and trends forecast to 2050
+[SECTION: 1. Definition of the Computer Revolution]
+1. Definition of the Computer Revolution
+[SECTION: 1. D
+2025-06-11 04:19:26,667 - INFO - root - Chunk: {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, Content: [Source: Topic 3 lecture HCI.pdf] 2. Importance of understanding technological evolution
+Revolution is a bigger force shaping our world now than it ever has been. Each era of the computing 
+revoluti
+2025-06-11 04:19:26,667 - INFO - root - Chunk: {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, Content: became a phenomenon not because of the PC itself but because of the breadth of things people did 
+with them. PCs are a platform for others to build on top of. The internet changed the world not 
+bec
+2025-06-11 04:19:26,667 - INFO - root - Chunk: {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, Content: [Source: Topic 3 lecture HCI.pdf] 3. Current Technological Trends
+Augmented Reality
+AR overlays digital elements on the real world using sensors like GPS to track location and direction. 
+Populariz
+2025-06-11 04:19:26,667 - INFO - root - Chunk: {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, Content: [Source: Topic 4 lecture HCI.pdf] Topic 4: Design Principles
+[SECTION: 1. Learnability]
+1. Learnability
+[SECTION: 1. Learnability]
+Learnability principles are concerned with interactive system featu
+2025-06-11 04:19:26,667 - INFO - root - Chunk: {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, Content: [SECTION: 1. Learnability]
+The appearance of an object provides familiarity with its behaviour. Effective use of appearance in 
+[SECTION: 1. Learnability]
+an interactive system design can improve the
+2025-06-11 04:19:26,667 - INFO - root - Chunk: {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, Content: [Source: Topic 4 lecture HCI.pdf] 2. Flexibility
+Flexibility in interactive design extends the way a user and the system exchange information. By 
+applying flexibility principles to an interactive s
+2025-06-11 04:19:26,667 - INFO - root - Flexibility chunk: {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, Content: [Source: Topic 4 lecture HCI.pdf] 2. Flexibility
+Flexibility in interactive design extends the way a user and the system exchange information. By 
+applying flexibility principles to an interactive s
+2025-06-11 04:19:26,667 - INFO - root - Chunk: {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, Content: [Source: Topic 4 lecture HCI.pdf] 3. Robustness
+The robustness of an interface design can be measured in terms of the following four principles. 
+These principles aim to support users to achieve the
+2025-06-11 04:19:26,667 - INFO - root - Chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '1. Adaptive interfaces'}, Content: [Source: Topic 5 lecture HCI.pdf]  Topic 5: Adaptive and Personalized interfaces
+[SECTION: 1. Adaptive interfaces]
+1. Adaptive interfaces
+[SECTION: 1. Adaptive interfaces]
+An Adaptive User Interface
+2025-06-11 04:19:26,668 - INFO - root - Flexibility chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '1. Adaptive interfaces'}, Content: [Source: Topic 5 lecture HCI.pdf]  Topic 5: Adaptive and Personalized interfaces
+[SECTION: 1. Adaptive interfaces]
+1. Adaptive interfaces
+[SECTION: 1. Adaptive interfaces]
+An Adaptive User Interface
+2025-06-11 04:19:26,668 - INFO - root - Chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '1. Adaptive interfaces'}, Content: [SECTION: 1. Adaptive interfaces]
+the size of the buttons on their browser, or change the look of the buttons altogether. Instead of using 
+[SECTION: 1. Adaptive interfaces]
+a ring tone on a mobile p
+2025-06-11 04:19:26,668 - INFO - root - Flexibility chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '1. Adaptive interfaces'}, Content: [SECTION: 1. Adaptive interfaces]
+the size of the buttons on their browser, or change the look of the buttons altogether. Instead of using 
+[SECTION: 1. Adaptive interfaces]
+a ring tone on a mobile p
+2025-06-11 04:19:26,668 - INFO - root - Chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '1. Left / Right hand dominant users'}, Content: [Source: Topic 5 lecture HCI.pdf] 2. Discussion about Personalized user interface
+At a time of Human Centered Design determining how we interact with multiple arenas in our lives, 
+there is one sign
+2025-06-11 04:19:26,668 - INFO - root - Chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '2. Motor Differences'}, Content: [SECTION: 1. Left / Right hand dominant users]
+that for a right hander, the ‘Yes’ button appears closer, and the decision making time (or fixation to 
+[SECTION: 1. Left / Right hand dominant users]
+a
+2025-06-11 04:19:26,668 - INFO - root - Chunk: {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '2. Motor Differences'}, Content: [Source: Topic 5 lecture HCI.pdf]
+2025-06-11 04:19:26,668 - INFO - root - Chunk: {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, Content: [Source: Topic 6 lecture HCI.pdf]  Topic 6: Psychology in Design
+Key principles
+The intersection of psychology and design is extensive. There’s an endless list of principles 
+that occupy this space
+2025-06-11 04:19:26,668 - INFO - root - Chunk: {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, Content: Cognitive load refers to the mental processing power being used by our working memory. 
+[SECTION: 1. HICK’S LAW]
+Our brains are similar to computer processors in that we have limited processing power
+2025-06-11 04:19:26,668 - INFO - root - Chunk: {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, Content: [Source: Topic 6 lecture HCI.pdf] 2. MILLER’S LAW
+Another key principle is Miller’s Law, which predicts that the average person can only keep 
+7 (± 2) items in their working memory. It originates fr
+2025-06-11 04:19:26,668 - INFO - root - Chunk: {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, Content: [Source: Topic 6 lecture HCI.pdf] 3. JAKOB’S LAW
+The last principle we’ll look at is Jakob’s Law (short for Jakob’s Law of Internet User 
+Experience), which states that users spend most of their tim
+2025-06-11 04:19:26,668 - INFO - root - Chunk: {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 3, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, Content: [Source: Topic 6 lecture HCI.pdf]
+2025-06-11 04:19:26,706 - INFO - chromadb.telemetry.product.posthog - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-11 04:19:27,764 - INFO - root - Hybrid retriever initialized with balanced weights
+2025-06-11 04:19:27,774 - WARNING - werkzeug -  * Debugger is active!
+2025-06-11 04:19:27,780 - INFO - werkzeug -  * Debugger PIN: 741-656-962
+2025-06-11 04:20:10,070 - INFO - root - Processing query: hello, what is your purpose
+2025-06-11 04:20:10,070 - INFO - root - Query classified as: non-hci
+2025-06-11 04:20:10,072 - INFO - root - Prompt sent to Gemini: 
+            You are Niko, a friendly AI assistant for the HANU HCI course. Answer the following question clearly, concisely, and in Markdown format:
+            - Start with a one-sentence summary.
+ ...
+2025-06-11 04:20:10,785 - INFO - root - Raw Gemini response: Hello! My purpose is to help you with the HANU HCI course.
+...
+2025-06-11 04:20:10,785 - INFO - root - Non-HCI response prepared in 0.71 seconds: Hello! My purpose is to help you with the HANU HCI course.
+2025-06-11 04:20:10,786 - INFO - werkzeug - 127.0.0.1 - - [11/Jun/2025 04:20:10] "POST /api/chat HTTP/1.1" 200 -
+2025-06-11 04:20:58,617 - INFO - root - Processing query: what is the learnability in design principle
+2025-06-11 04:20:58,617 - INFO - root - Query classified as: hci-related
+2025-06-11 04:20:58,695 - INFO - root - Hybrid retrieved 8 docs: [{'page': 0, 'source': './resources\\Topic 4 lecture HCI.pdf', 'source_file': 'Topic 4 lecture HCI.pdf'}, {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}]
+2025-06-11 04:20:58,695 - INFO - root - Aggregated 5 chunks for query: what is the learnability in design principle, top section: [Source: Topic 4 lecture HCI.pdf] Topic 4: Design Principles
+1. Learnability
+Learnability principl
+2025-06-11 04:20:58,792 - INFO - root - Reranking scores: [('[Source: Topic 4 lecture HCI.pdf] Topic 4: Design ', 0.788453996181488)]
+2025-06-11 04:20:58,793 - INFO - root - Prompt sent to Gemini: 
+You are Niko, an expert HCI course tutor. Using only the provided lecture note context, answer the question with a clear, concise, and professional explanation, focusing on Human-Computer Interaction...
+2025-06-11 04:21:00,613 - INFO - root - Raw Gemini response: Learnability in design principles focuses on making interactive systems easy for novice users to learn and allowing for steady progression to expertise.
+
+*   **Simplicity:**  _Simple interfaces are ea...
+2025-06-11 04:21:00,613 - INFO - root - Response prepared in 2.00 seconds: Learnability in design principles focuses on making interactive systems easy for novice users to lea
+2025-06-11 04:21:00,614 - INFO - werkzeug - 127.0.0.1 - - [11/Jun/2025 04:21:00] "POST /api/chat HTTP/1.1" 200 -
+2025-06-11 04:22:40,140 - INFO - root - Processing query: how can you apply the design principle into the advanced in business
+2025-06-11 04:22:40,140 - INFO - root - Query classified as: hci-related
+2025-06-11 04:22:40,173 - INFO - root - Hybrid retrieved 8 docs: [{'page': 0, 'section': '1. Learnability', 'source': './resources\\Topic 4 lecture HCI.pdf', 'source_file': 'Topic 4 lecture HCI.pdf'}, {'page': 0, 'section': '1. HICK’S LAW', 'source': './resources\\Topic 6 lecture HCI.pdf', 'source_file': 'Topic 6 lecture HCI.pdf'}, {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}]
+2025-06-11 04:22:40,173 - INFO - root - Aggregated 5 chunks for query: how can you apply the design principle into the advanced in business, top section: [SECTION: 1. Learnability]
+The appearance of an object provides familiarity with its behaviour. Effe
+2025-06-11 04:22:40,247 - INFO - root - Reranking scores: [('[SECTION: 1. Learnability]\nThe appearance of an ob', 0.46849319338798523)]
+2025-06-11 04:22:40,247 - INFO - root - No relevant keywords in context for query: how can you apply the design principle into the advanced in business
+2025-06-11 04:22:40,248 - INFO - werkzeug - 127.0.0.1 - - [11/Jun/2025 04:22:40] "POST /api/chat HTTP/1.1" 200 -
+2025-06-11 04:23:28,396 - INFO - root - Processing query: what is the predictability
+2025-06-11 04:23:28,397 - INFO - root - Query classified as: hci-related
+2025-06-11 04:23:28,433 - INFO - root - Hybrid retrieved 8 docs: [{'page': 2, 'section': '1. Learnability', 'source': './resources\\Topic 4 lecture HCI.pdf', 'source_file': 'Topic 4 lecture HCI.pdf'}, {'source': './resources\\Topic 4 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 4 lecture HCI.pdf', 'section': '1. Learnability'}, {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 2, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 0, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}, {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, {'source': './resources\\Topic 3 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 3 lecture HCI.pdf', 'section': '1. Definition of the Computer Revolution'}, {'source': './resources\\Topic 5 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 5 lecture HCI.pdf', 'section': '2. Motor Differences'}, {'source': './resources\\Topic 6 lecture HCI.pdf', 'page': 1, 'source_file': 'Topic 6 lecture HCI.pdf', 'section': '1. HICK’S LAW'}]
+2025-06-11 04:23:28,433 - INFO - root - Aggregated 5 chunks for query: what is the predictability, top section: [Source: Topic 4 lecture HCI.pdf] Topic 4: Design Principles
+[SECTION: 1. Learnability]
+1. Learnabi
+2025-06-11 04:23:28,549 - INFO - root - Reranking scores: [('[Source: Topic 4 lecture HCI.pdf] Topic 4: Design ', 0.2974437177181244)]
+2025-06-11 04:23:28,549 - INFO - root - Prompt sent to Gemini: 
+You are Niko, an expert HCI course tutor. Using only the provided lecture note context, answer the question with a clear, concise, and professional explanation, focusing on Human-Computer Interaction...
+2025-06-11 04:23:29,828 - INFO - root - Raw Gemini response: Predictability in HCI design ensures users can determine the outcome of interactions based on their existing knowledge.
+
+*   **Predictability:** *Users should be able to anticipate the results of thei...
+2025-06-11 04:23:29,828 - INFO - root - Response prepared in 1.43 seconds: Predictability in HCI design ensures users can determine the outcome of interactions based on their 
+2025-06-11 04:23:29,828 - INFO - werkzeug - 127.0.0.1 - - [11/Jun/2025 04:23:29] "POST /api/chat HTTP/1.1" 200 -

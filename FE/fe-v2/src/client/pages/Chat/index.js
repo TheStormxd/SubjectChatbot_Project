@@ -5,6 +5,7 @@ import { CompassOutlined, BulbOutlined, MessageOutlined, CodeOutlined, SendOutli
 import { VscAccount } from "react-icons/vsc";
 import { useNavigate, useParams } from "react-router-dom"
 import { getChatApi, sendMessApi } from '../../../utils/client/api';
+import { marked } from "marked";
 function Home() {
   function getRandomNumber() {
     return Math.floor(Math.random() * (5 - 3 + 1)) + 3;
@@ -93,7 +94,7 @@ function Home() {
 
                         <div className='flex items-start gap-[10px] '>
                           <VscAccount size={30} />
-                          <div dangerouslySetInnerHTML={{ __html: item.chatMachine }} />
+                          <div dangerouslySetInnerHTML={{ __html: marked(item.chatMachine) }} />
                         </div>
                       </>
                     ))}
