@@ -1,5 +1,5 @@
-Dự án: Tutor Chatbot
-Đây là dự án Tutor Chatbot được phát triển bởi nhóm 5 thành viên. Dự án bao gồm một chatbot hỗ trợ học tập với giao diện người dùng (Frontend) và hệ thống backend tích hợp.
+# Dự án: Tutor Chatbot
+## Đây là dự án Tutor Chatbot được phát triển bởi nhóm 5 thành viên. Dự án bao gồm một chatbot hỗ trợ học tập với giao diện người dùng (Frontend) và hệ thống backend tích hợp.
 Tổng quan
 Dự án bao gồm 3 phần chính:
 BE_chatbot: Backend xử lý logic chatbot (Python).
@@ -31,7 +31,7 @@ bash
 pip install virtualenv
 virtualenv venv
 source venv/Scripts/activate  # Trên Windows
-# hoặc: source venv/bin/activate  # Trên macOS/Linux
+hoặc: source venv/bin/activate  # Trên macOS/Linux
 
 Nếu terminal hiển thị (venv) trước dấu nhắc lệnh, môi trường ảo đã được kích hoạt thành công.
 
