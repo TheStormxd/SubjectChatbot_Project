@@ -20,10 +20,10 @@ Trình duyệt web (Chrome, Firefox, v.v.).
 ## Hướng dẫn cài đặt và chạy dự án
 Làm theo các bước dưới đây để chạy dự án một cách mượt mà. Lưu ý: Luôn chạy các phần theo thứ tự: BE_chatbot → BE_Nodejs → FE.
 1. Cài đặt và chạy BE_chatbot
-Mở terminal (Git Bash trên Windows) và di chuyển đến thư mục BE_chatbot:
+Mở terminal (Git Bash trên Windows) và di chuyển đến thư mục BE_chatbot
 bash: cd BE_chatbot
 
-Tạo và kích hoạt môi trường ảo (virtual environment):
+Tạo và kích hoạt môi trường ảo (virtual environment)
 bash: pip install virtualenv
 virtualenv venv
 source venv/Scripts/activate  # Trên Windows
