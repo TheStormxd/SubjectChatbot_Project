@@ -1,5 +1,5 @@
-#Dự án: Tutor Chatbot
-##Đây là dự án Tutor Chatbot được phát triển bởi nhóm 5 thành viên. Dự án bao gồm một chatbot hỗ trợ học tập với giao diện người dùng (Frontend) và hệ thống backend tích hợp.
+Dự án: Tutor Chatbot
+Đây là dự án Tutor Chatbot được phát triển bởi nhóm 5 thành viên. Dự án bao gồm một chatbot hỗ trợ học tập với giao diện người dùng (Frontend) và hệ thống backend tích hợp.
 Tổng quan
 Dự án bao gồm 3 phần chính:
 BE_chatbot: Backend xử lý logic chatbot (Python).
