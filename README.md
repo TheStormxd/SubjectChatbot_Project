@@ -21,14 +21,10 @@ Trình duyệt web (Chrome, Firefox, v.v.).
 Làm theo các bước dưới đây để chạy dự án một cách mượt mà. Lưu ý: Luôn chạy các phần theo thứ tự: BE_chatbot → BE_Nodejs → FE.
 1. Cài đặt và chạy BE_chatbot
 Mở terminal (Git Bash trên Windows) và di chuyển đến thư mục BE_chatbot:
-bash
-
-cd BE_chatbot
+bash: cd BE_chatbot
 
 Tạo và kích hoạt môi trường ảo (virtual environment):
-bash
-
-pip install virtualenv
+bash: pip install virtualenv
 virtualenv venv
 source venv/Scripts/activate  # Trên Windows
 hoặc: source venv/bin/activate  # Trên macOS/Linux
@@ -36,46 +32,30 @@ hoặc: source venv/bin/activate  # Trên macOS/Linux
 Nếu terminal hiển thị (venv) trước dấu nhắc lệnh, môi trường ảo đã được kích hoạt thành công.
 
 Cài đặt các thư viện cần thiết:
-bash
-
-pip install -r requirements.txt
+bash: pip install -r requirements.txt
 
 Chạy logic chatbot:
-bash
-
-python app.py
+bash: python app.py
 
 2. Cài đặt và chạy BE_Nodejs
 Mở một terminal mới và di chuyển đến thư mục BE_Nodejs/be-v1:
-bash
-
-cd BE_Nodejs/be-v1
+bash: cd BE_Nodejs/be-v1
 
 Cài đặt các module Node.js:
-bash
-
-npm install
+bash: npm install
 
 Khởi động cơ sở dữ liệu:
-bash
-
-npm start
+bash: npm start
 
 3. Cài đặt và chạy FE
 Mở một terminal mới và di chuyển đến thư mục FE/fe-v1:
-bash
-
-cd FE/fe-v1
+bash: cd FE/fe-v1
 
 Cài đặt các module Node.js:
-bash
-
-npm install
+bash: npm install
 
 Khởi động giao diện React:
-bash
-
-npm start
+bash: npm start
 
 Trình duyệt sẽ tự động mở giao diện tại http://localhost:3000 (hoặc cổng tương tự).
 
